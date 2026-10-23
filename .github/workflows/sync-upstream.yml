@@ -1,0 +1,27 @@
+name: Sync Fork with Upstream
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天UTC 0点自动运行一次，可按需修改
+  workflow_dispatch:      # 允许在Actions页面手动触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write    # 必须授予写入权限，才能推送更新到你的Fork
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sync with Upstream
+        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.3
+        with:
+          upstream_sync_repo: hugohe3/ppt-master-examples  # 上游仓库
+          upstream_sync_branch: main                        # 上游仓库要同步的分支
+          target_sync_branch: main                          # 你Fork仓库的目标分支
+          target_repo_token: ${{ secrets.GITHUB_TOKEN }}    # 使用内置Token认证
+          test_mode: false                                  # 设为true则只模拟运行不实际推送
