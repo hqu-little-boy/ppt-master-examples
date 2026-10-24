@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Segoe UI, sans-serif" data-pptx-page-role="content">
+  <defs>
+    <marker id="arrowCyan" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#8CC4EE" />
+    </marker>
+    <marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#5ED3C4" />
+    </marker>
+  </defs>
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#0B1F3A" />
+  <g id="sheet-grid" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#16305A" stroke-width="1">
+    <line x1="128" y1="20" x2="128" y2="700" /><line x1="256" y1="20" x2="256" y2="700" /><line x1="384" y1="20" x2="384" y2="700" /><line x1="512" y1="20" x2="512" y2="700" /><line x1="640" y1="20" x2="640" y2="700" /><line x1="768" y1="20" x2="768" y2="700" /><line x1="896" y1="20" x2="896" y2="700" /><line x1="1024" y1="20" x2="1024" y2="700" /><line x1="1152" y1="20" x2="1152" y2="700" />
+    <line x1="20" y1="128" x2="1260" y2="128" /><line x1="20" y1="256" x2="1260" y2="256" /><line x1="20" y1="384" x2="1260" y2="384" /><line x1="20" y1="512" x2="1260" y2="512" /><line x1="20" y1="640" x2="1260" y2="640" />
+    <rect x="20" y="20" width="1240" height="680" fill="none" stroke="#2D4C74" />
+  </g>
+
+  <g id="header" data-pptx-bounds="64 44 1152 100">
+    <text x="64" y="78" font-size="15" letter-spacing="2" fill="#8CC4EE">06 · ATOMIC COMMIT — TWO MECHANISMS</text>
+    <text x="64" y="126" font-family="Bahnschrift, sans-serif" font-size="40" fill="#EAF2FB">Rollback journal vs write-ahead log</text>
+  </g>
+
+  <g id="rb-label" data-pptx-bounds="64 168 212 180">
+    <text x="64" y="186" font-size="15" letter-spacing="2" fill="#8CC4EE">ROLLBACK JOURNAL</text>
+    <text x="64" y="216" font-size="16" fill="#9FB6CF">The default mode.</text>
+    <text font-size="22" fill="#EAF2FB" x="64" y="256">Save the old pages,</text><text font-size="22" fill="#EAF2FB" x="64" y="286">overwrite in place.</text></g>
+
+  <g id="rb-diagram" data-pptx-bounds="288 180 640 172">
+    <rect x="292" y="196" width="216" height="124" fill="none" stroke="#8CC4EE" stroke-width="1.5" rx="2" />
+    <text x="308" y="222" font-size="16" fill="#EAF2FB">database file</text>
+    <g stroke-width="1.5">
+      <rect x="308" y="240" width="40" height="56" fill="#11294B" stroke="#8CC4EE" />
+      <rect x="356" y="240" width="40" height="56" fill="#FFB547" fill-opacity="0.25" stroke="#FFB547" />
+      <rect x="404" y="240" width="40" height="56" fill="#11294B" stroke="#8CC4EE" />
+      <rect x="452" y="240" width="40" height="56" fill="#FFB547" fill-opacity="0.25" stroke="#FFB547" />
+    </g>
+    <line x1="512" y1="252" x2="716" y2="252" stroke="#8CC4EE" stroke-width="1.5" marker-end="url(#arrowCyan)" />
+    <text x="524" y="240" font-size="16" fill="#EAF2FB">① copy original pages</text>
+    <line x1="716" y1="290" x2="516" y2="290" stroke="#8CC4EE" stroke-width="1.25" stroke-dasharray="8,4" marker-end="url(#arrowCyan)" />
+    <text x="528" y="312" font-size="13" fill="#9FB6CF">crash or ROLLBACK: play the journal back</text>
+    <rect x="720" y="196" width="200" height="124" fill="none" stroke="#8CC4EE" stroke-width="1.5" stroke-dasharray="4,4" rx="2" />
+    <text x="736" y="222" font-size="16" fill="#EAF2FB">journal file</text>
+    <g fill="#11294B" stroke="#8CC4EE" stroke-width="1.5">
+      <rect x="736" y="240" width="40" height="56" />
+      <rect x="784" y="240" width="40" height="56" />
+    </g>
+    <text x="292" y="344" font-size="16" fill="#EAF2FB">② write the changes <tspan fill="#FFB547">directly into the database</tspan></text>
+  </g>
+
+  <g id="rb-commit" data-pptx-bounds="944 188 272 156">
+    <line x1="944" y1="214" x2="960" y2="214" stroke="#FFB547" stroke-width="2" />
+    <text x="968" y="220" font-size="20" font-weight="bold" fill="#FFB547">③ COMMIT =</text>
+    <text font-size="20" fill="#EAF2FB" x="968" y="250">the journal file</text><text font-size="20" fill="#EAF2FB" x="968" y="278">is deleted</text></g>
+
+  <g id="lane-divider" data-pptx-bounds="64 384 1152 16">
+    <line x1="64" y1="392" x2="1216" y2="392" stroke="#2D4C74" stroke-width="1" stroke-dasharray="4,4" />
+  </g>
+
+  <g id="wal-label" data-pptx-bounds="64 412 212 180">
+    <text x="64" y="430" font-size="15" letter-spacing="2" fill="#5ED3C4">WRITE-AHEAD LOG</text>
+    <text x="64" y="460" font-size="16" fill="#9FB6CF">Since 3.7.0 (2010-07-21).</text>
+    <text font-size="22" fill="#EAF2FB" x="64" y="500">Append the new,</text><text font-size="22" fill="#EAF2FB" x="64" y="530">leave the database</text><text font-size="22" fill="#EAF2FB" x="64" y="560">alone.</text></g>
+
+  <g id="wal-db" data-pptx-bounds="288 428 236 196">
+    <rect x="292" y="440" width="216" height="124" fill="none" stroke="#8CC4EE" stroke-width="1.5" rx="2" />
+    <text x="308" y="466" font-size="16" fill="#EAF2FB">database file</text>
+    <g fill="#11294B" stroke="#8CC4EE" stroke-width="1.5">
+      <rect x="308" y="484" width="40" height="56" />
+      <rect x="356" y="484" width="40" height="56" />
+      <rect x="404" y="484" width="40" height="56" />
+      <rect x="452" y="484" width="40" height="56" />
+    </g>
+    
+  <g transform="translate(292, 578)" fill="none" stroke="#9FB6CF" stroke-width="1.5">
+    <path d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+    <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+    <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+  </g>
+    <text x="324" y="596" font-size="16" fill="#9FB6CF">readers use the original</text>
+  </g>
+
+  <g id="wal-writer" data-pptx-bounds="532 448 104 116">
+    
+  <g transform="translate(550, 456)" fill="none" stroke="#5ED3C4" stroke-width="1.5">
+    <path d="M7 8l-4 4l4 4" />
+    <path d="M17 8l4 4l-4 4" />
+    <path d="M14 4l-4 16" />
+  </g>
+    <text x="580" y="474" font-size="13" fill="#5ED3C4">writer</text>
+    <line x1="540" y1="512" x2="632" y2="512" stroke="#5ED3C4" stroke-width="1.5" marker-end="url(#arrowTeal)" />
+    <text font-size="13" fill="#9FB6CF" x="540" y="540">① changes</text><text font-size="13" fill="#9FB6CF" x="540" y="556">appended</text></g>
+
+  <g id="wal-file" data-pptx-bounds="640 436 304 132">
+    <rect x="640" y="440" width="300" height="124" fill="none" stroke="#5ED3C4" stroke-width="1.5" rx="2" />
+    <g stroke-width="1.5">
+      <rect x="656" y="484" width="38" height="56" fill="#11294B" stroke="#5ED3C4" />
+      <rect x="702" y="484" width="38" height="56" fill="#11294B" stroke="#5ED3C4" />
+      <rect x="748" y="484" width="38" height="56" fill="#11294B" stroke="#5ED3C4" />
+      <rect x="794" y="484" width="38" height="56" fill="#11294B" stroke="#5ED3C4" />
+      <rect x="840" y="484" width="38" height="56" fill="#11294B" stroke="#5ED3C4" />
+      <rect x="886" y="484" width="38" height="56" fill="#FFB547" fill-opacity="0.35" stroke="#FFB547" />
+    </g>
+    <text x="656" y="466" font-size="16" fill="#EAF2FB">WAL file <tspan font-family="Consolas, monospace" font-size="15" fill="#5ED3C4">-wal</tspan></text>
+  </g>
+
+  <g id="wal-commit" data-pptx-bounds="944 432 272 180">
+    <line x1="944" y1="458" x2="960" y2="458" stroke="#FFB547" stroke-width="2" />
+    <text x="968" y="464" font-size="20" font-weight="bold" fill="#FFB547">② COMMIT =</text>
+    <text font-size="20" fill="#EAF2FB" x="968" y="494">a commit record</text><text font-size="20" fill="#EAF2FB" x="968" y="522">appended to the WAL</text><text font-size="16" fill="#9FB6CF" x="968" y="572">The database file is never</text><text font-size="16" fill="#9FB6CF" x="968" y="594">touched to commit.</text></g>
+
+  <g id="title-block" data-pptx-role="footer" data-pptx-bounds="880 650 336 38">
+    <rect x="880" y="654" width="336" height="30" fill="#11294B" stroke="#2D4C74" />
+    <line x1="972" y1="654" x2="972" y2="684" stroke="#2D4C74" />
+    <text x="892" y="674" font-family="Consolas, monospace" font-size="13" fill="#8CC4EE">SHT 07/12</text>
+    <text x="984" y="674" font-size="13" fill="#9FB6CF">Source: sqlite.org/wal</text>
+  </g>
+</svg>

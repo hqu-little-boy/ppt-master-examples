@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Segoe UI, sans-serif" data-pptx-page-role="ending">
+  <defs>
+    <linearGradient id="closeScrim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B1F3A" stop-opacity="0.92"/>
+      <stop offset="55%" stop-color="#0B1F3A" stop-opacity="0.62"/>
+      <stop offset="100%" stop-color="#0B1F3A" stop-opacity="0.30"/>
+    </linearGradient>
+  </defs>
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#0B1F3A"/>
+  <image id="closing-field" data-pptx-role="background" href="../images/closing_file_stack_dim.jpg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+  <rect id="closing-scrim" data-pptx-role="decoration" x="0" y="0" width="1280" height="720" fill="url(#closeScrim)"/>
+
+  <g id="closing-kicker" data-pptx-bounds="64 148 600 42">
+    <use data-icon="simple-icons/sqlite" x="72" y="158" width="28" height="28" fill="#8CC4EE"/>
+    <text x="112" y="178" font-size="15" letter-spacing="2" fill="#9FB6CF">SHEET 12 · TAKEAWAY</text>
+  </g>
+
+  <g id="closing-title" data-pptx-bounds="64 192 900 186" font-family="Bahnschrift, sans-serif" font-size="76" font-weight="bold" fill="#EAF2FB">
+    <text x="72" y="262">SQLite competes<tspan x="72" dy="88">with <tspan font-family="Consolas, monospace" fill="#FFB547">fopen()</tspan></tspan></text>
+  </g>
+
+  <g id="closing-takeaway" data-pptx-bounds="64 382 1000 44">
+    <text x="72" y="412" font-size="26" fill="#EAF2FB">Reach for SQLite wherever you would have reached for <tspan font-family="Consolas, monospace" fill="#FFB547">fopen()</tspan>.</text>
+  </g>
+
+  <g id="reason-architecture" data-pptx-bounds="64 448 344 76">
+    <rect x="72" y="452" width="336" height="68" fill="#0B1F3A" fill-opacity="0.6" stroke="#8CC4EE" stroke-width="1.5" rx="2"/>
+    <use data-icon="tabler-outline/file" x="88" y="474" width="24" height="24" fill="#8CC4EE" stroke-width="1.5"/>
+    <text x="124" y="480" font-size="16" fill="#EAF2FB">In-process, one ordinary file,<tspan x="124" dy="22">zero configuration</tspan></text>
+  </g>
+
+  <g id="reason-trust" data-pptx-bounds="424 448 344 76">
+    <rect x="428" y="452" width="336" height="68" fill="#0B1F3A" fill-opacity="0.6" stroke="#8CC4EE" stroke-width="1.5" rx="2"/>
+    <use data-icon="tabler-outline/shield-check" x="444" y="474" width="24" height="24" fill="#8CC4EE" stroke-width="1.5"/>
+    <text x="480" y="480" font-size="16" fill="#EAF2FB">Test code 590× the library,<tspan x="480" dy="22">100% branch and MC/DC</tspan></text>
+  </g>
+
+  <g id="reason-freedom" data-pptx-bounds="780 448 344 76">
+    <rect x="784" y="452" width="336" height="68" fill="#0B1F3A" fill-opacity="0.6" stroke="#8CC4EE" stroke-width="1.5" rx="2"/>
+    <use data-icon="tabler-outline/license" x="800" y="474" width="24" height="24" fill="#8CC4EE" stroke-width="1.5"/>
+    <text x="836" y="480" font-size="16" fill="#EAF2FB">Public domain — free for<tspan x="836" dy="22">any purpose, no license</tspan></text>
+  </g>
+
+  <g id="closing-motto" data-pptx-bounds="64 572 900 76">
+    <text x="72" y="596" font-family="Bahnschrift, sans-serif" font-size="28" fill="#8CC4EE">Small. Fast. Reliable. <tspan fill="#FFB547">Choose any three.</tspan></text>
+    <text x="72" y="632" font-size="13" fill="#9FB6CF">Motto and every figure in this deck: sqlite.org (about, mostdeployed, arch, fileformat2, wal, testing, copyright, whentouse)</text>
+  </g>
+</svg>

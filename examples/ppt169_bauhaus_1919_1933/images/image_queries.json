@@ -1,0 +1,98 @@
+{
+ "items": [
+  {
+   "filename": "dessau_building.jpg",
+   "query": "Bauhaus Dessau building",
+   "query_variants": [
+    "Bauhausgebäude Dessau",
+    "Bauhaus Dessau Gropius"
+   ],
+   "slide": "07_dessau_building",
+   "purpose": "full-bleed exterior of the Dessau Bauhaus building",
+   "orientation": "landscape",
+   "required_terms": [
+    "Bauhaus",
+    "Dessau"
+   ],
+   "min_width": 1600,
+   "status": "Sourced",
+   "candidate_page": 1,
+   "provider": "wikimedia",
+   "license_tier": "attribution-required"
+  },
+  {
+   "filename": "feininger_cathedral.jpg",
+   "query": "Lyonel Feininger Kathedrale",
+   "query_variants": [
+    "Bauhaus Manifest Programm 1919",
+    "Feininger woodcut cathedral",
+    "Programm des Staatlichen Bauhauses Weimar"
+   ],
+   "slide": "02_manifesto",
+   "purpose": "Feininger Cathedral woodcut, manifesto cover",
+   "orientation": "portrait",
+   "required_terms": [
+    "Feininger|Bauhaus|Manifest|Programm"
+   ],
+   "status": "Sourced",
+   "candidate_page": 1,
+   "provider": "openverse",
+   "license_tier": "attribution-required"
+  },
+  {
+   "filename": "mt8_lamp.jpg",
+   "query": "Wagenfeld lamp",
+   "query_variants": [
+    "Wagenfeld Leuchte WG24",
+    "Bauhaus lamp Wagenfeld Jucker"
+   ],
+   "slide": "08_mt8_lamp",
+   "purpose": "Wagenfeld MT8 table lamp object photo",
+   "orientation": "square",
+   "required_terms": [
+    "Wagenfeld"
+   ],
+   "status": "Sourced",
+   "candidate_page": 1,
+   "provider": "wikimedia",
+   "license_tier": "attribution-required"
+  },
+  {
+   "filename": "wassily_chair.jpg",
+   "query": "Wassily Chair Breuer",
+   "query_variants": [
+    "Marcel Breuer B3 chair",
+    "Wassily Chair"
+   ],
+   "slide": "09_b3_chair",
+   "purpose": "Breuer B3 Wassily chair object photo",
+   "orientation": "square",
+   "required_terms": [
+    "Wassily|Breuer|B3"
+   ],
+   "status": "Sourced",
+   "candidate_page": 1,
+   "provider": "wikimedia",
+   "license_tier": "attribution-required"
+  },
+  {
+   "filename": "tel_aviv_white_city.jpg",
+   "query": "White City Tel Aviv Bauhaus building",
+   "query_variants": [
+    "Tel Aviv Bauhaus architecture",
+    "White City Tel Aviv"
+   ],
+   "slide": "12_diaspora",
+   "purpose": "Bauhaus/International Style building in Tel Aviv White City",
+   "orientation": "landscape",
+   "required_terms": [
+    "Tel Aviv",
+    "Bauhaus|White City"
+   ],
+   "status": "Sourced",
+   "candidate_page": 1,
+   "provider": "wikimedia",
+   "license_tier": "attribution-required"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Segoe UI, sans-serif" data-pptx-page-role="cover">
+  <defs>
+    <linearGradient id="coverScrim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B1F3A" stop-opacity="0.92"/>
+      <stop offset="38%" stop-color="#0B1F3A" stop-opacity="0.72"/>
+      <stop offset="58%" stop-color="#0B1F3A" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#0B1F3A"/>
+  <image id="cover-drawing" data-pptx-role="background" href="../images/cover_file_stack_fit.jpg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+  <rect id="cover-scrim" data-pptx-role="decoration" x="0" y="0" width="1280" height="720" fill="url(#coverScrim)"/>
+
+  <g id="cover-tags" data-pptx-bounds="1088 58 116 460" font-family="Consolas, monospace" font-size="13" text-anchor="middle">
+    <text x="1145" y="80" fill="#FFB547">PAGE 1</text>
+    <text x="1156" y="200" fill="#8CC4EE">B-TREE</text>
+    <text x="1156" y="340" fill="#8CC4EE">4096 B</text>
+    <text x="1156" y="506" fill="#8CC4EE">ONE FILE</text>
+  </g>
+
+  <g id="cover-kicker" data-pptx-bounds="64 150 560 50">
+    <use data-icon="simple-icons/sqlite" x="72" y="160" width="32" height="32" fill="#8CC4EE"/>
+    <text x="116" y="183" font-size="15" letter-spacing="2" fill="#9FB6CF">SHEET 00 · ENGINEERING TECH TALK</text>
+  </g>
+
+  <g id="cover-title" data-pptx-bounds="64 222 600 198" font-family="Bahnschrift, sans-serif" font-size="76" font-weight="bold" fill="#EAF2FB">
+    <text x="72" y="300">Why SQLite Is<tspan x="72" dy="88" fill="#FFB547">Everywhere</tspan></text>
+  </g>
+
+  <g id="cover-subtitle" data-pptx-bounds="64 424 600 84" font-family="Bahnschrift, sans-serif" font-size="28" fill="#EAF2FB">
+    <text x="72" y="456">Not a replacement for Oracle —<tspan x="72" dy="38">a replacement for <tspan font-family="Consolas, monospace" fill="#FFB547">fopen()</tspan></tspan></text>
+  </g>
+
+  <g id="cover-rule" data-pptx-bounds="64 530 420 8">
+    <line x1="72" y1="534" x2="472" y2="534" stroke="#8CC4EE" stroke-width="1.25" stroke-dasharray="8,4,2,4"/>
+  </g>
+
+  <g id="cover-source" data-pptx-bounds="64 620 600 32">
+    <text x="72" y="640" font-size="13" fill="#9FB6CF">Quote and figures throughout: official SQLite documentation, sqlite.org</text>
+  </g>
+</svg>

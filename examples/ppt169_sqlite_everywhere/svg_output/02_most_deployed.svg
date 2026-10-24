@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Segoe UI, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#0B1F3A"/>
+  <g id="sheet-grid" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#16305A" stroke-width="1">
+    <line x1="128" y1="20" x2="128" y2="700"/><line x1="256" y1="20" x2="256" y2="700"/><line x1="384" y1="20" x2="384" y2="700"/><line x1="512" y1="20" x2="512" y2="700"/><line x1="640" y1="20" x2="640" y2="700"/><line x1="768" y1="20" x2="768" y2="700"/><line x1="896" y1="20" x2="896" y2="700"/><line x1="1024" y1="20" x2="1024" y2="700"/><line x1="1152" y1="20" x2="1152" y2="700"/>
+    <line x1="20" y1="128" x2="1260" y2="128"/><line x1="20" y1="256" x2="1260" y2="256"/><line x1="20" y1="384" x2="1260" y2="384"/><line x1="20" y1="512" x2="1260" y2="512"/><line x1="20" y1="640" x2="1260" y2="640"/>
+    <rect x="20" y="20" width="1240" height="680" fill="none" stroke="#2D4C74"/>
+  </g>
+
+  <g id="header" data-pptx-bounds="64 44 1152 100">
+    <text x="64" y="78" font-size="15" letter-spacing="2" fill="#8CC4EE">01 · EVERYWHERE</text>
+    <text x="64" y="126" font-family="Bahnschrift, sans-serif" font-size="40" fill="#EAF2FB">SQLite likely outnumbers all other engines combined</text>
+  </g>
+
+  <g id="arithmetic" data-pptx-bounds="54 168 550 448">
+    <text x="64" y="186" font-size="15" letter-spacing="2" fill="#9FB6CF">THE ARITHMETIC</text>
+    <text x="64" y="252" font-family="Bahnschrift, sans-serif" font-size="40" fill="#8CC4EE">&gt;4.0 billion</text>
+    <text x="64" y="276" font-size="16" fill="#9FB6CF">smartphones in active use (4.0e9)</text>
+    <g id="p02-op-times" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="mathMultiply" data-pptx-frame="64 282 40 40" fill="#8CC4EE" stroke="none">
+<path d="M 70.28 294.93 L 76.93 288.28 L 84 295.35 L 91.07 288.28 L 97.72 294.93 L 90.65 302 L 97.72 309.07 L 91.07 315.72 L 84 308.65 L 76.93 315.72 L 70.28 309.07 L 77.35 302 Z"/>
+</g>
+    <text x="64" y="378" font-family="Bahnschrift, sans-serif" font-size="40" fill="#8CC4EE">hundreds</text>
+    <text x="64" y="402" font-size="16" fill="#9FB6CF">of SQLite database files held on each phone</text>
+    <g id="p02-op-equals" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="mathEqual" data-pptx-frame="64 416 40 40" fill="#FFB547" stroke="none">
+<path d="M 69.3 424.24 L 98.7 424.24 L 98.7 433.65 L 69.3 433.65 Z M 69.3 438.35 L 98.7 438.35 L 98.7 447.76 L 69.3 447.76 Z"/>
+</g>
+    <text x="58" y="568" font-family="Bahnschrift, sans-serif" font-size="112" font-weight="bold" fill="#FFB547">&gt;1e12</text>
+    <text x="64" y="604" font-size="16" fill="#EAF2FB">SQLite databases likely in active use — <tspan font-weight="bold" fill="#FFB547">over one trillion</tspan></text>
+  </g>
+
+  <g id="hosts-every" data-pptx-bounds="640 152 576 260">
+    <rect x="640" y="164" width="576" height="244" fill="none" stroke="#8CC4EE" stroke-width="1.25" rx="2"/>
+    <rect x="652" y="156" width="116" height="16" fill="#0B1F3A"/>
+    <text x="660" y="169" font-size="15" letter-spacing="2" fill="#8CC4EE">IN EVERY…</text>
+    <g font-size="16" fill="#EAF2FB">
+      <use data-icon="simple-icons/android" x="660" y="188" width="24" height="24" fill="#8CC4EE"/>
+      <text x="694" y="206">Android device</text>
+      <use data-icon="simple-icons/apple" x="660" y="224" width="24" height="24" fill="#8CC4EE"/>
+      <text x="694" y="242">iPhone and iOS device</text>
+      <use data-icon="simple-icons/apple" x="660" y="260" width="24" height="24" fill="#8CC4EE"/>
+      <text x="694" y="278">Mac</text>
+      <use data-icon="simple-icons/windows" x="660" y="296" width="24" height="24" fill="#8CC4EE"/>
+      <text x="694" y="314">Windows 10/11 installation</text>
+      <use data-icon="simple-icons/firefoxbrowser" x="660" y="332" width="24" height="24" fill="#8CC4EE"/>
+      <text x="694" y="350">Firefox web browser</text>
+      <use data-icon="simple-icons/googlechrome" x="660" y="368" width="24" height="24" fill="#8CC4EE"/>
+      <text x="694" y="386">Chrome web browser</text>
+      <use data-icon="simple-icons/safari" x="936" y="188" width="24" height="24" fill="#8CC4EE"/>
+      <text x="970" y="206">Safari web browser</text>
+      <use data-icon="simple-icons/skype" x="936" y="224" width="24" height="24" fill="#8CC4EE"/>
+      <text x="970" y="242">instance of Skype</text>
+      <use data-icon="simple-icons/itunes" x="936" y="260" width="24" height="24" fill="#8CC4EE"/>
+      <text x="970" y="278">instance of iTunes</text>
+      <use data-icon="simple-icons/dropbox" x="936" y="296" width="24" height="24" fill="#8CC4EE"/>
+      <text x="970" y="314">Dropbox client</text>
+      <use data-icon="simple-icons/quickbooks" x="936" y="332" width="24" height="24" fill="#8CC4EE"/>
+      <text x="970" y="350">TurboTax and QuickBooks</text>
+    </g>
+  </g>
+
+  <g id="hosts-also" data-pptx-bounds="640 416 576 120">
+    <rect x="640" y="428" width="576" height="104" fill="none" stroke="#2D4C74" stroke-width="1.25" stroke-dasharray="4,4" rx="2"/>
+    <rect x="652" y="420" width="132" height="16" fill="#0B1F3A"/>
+    <text x="660" y="433" font-size="15" letter-spacing="2" fill="#9FB6CF">ALSO IN…</text>
+    <g font-size="16" fill="#EAF2FB">
+      <use data-icon="simple-icons/php" x="660" y="450" width="24" height="24" fill="#8CC4EE"/>
+      <text x="694" y="468">PHP</text>
+      <use data-icon="simple-icons/python" x="776" y="450" width="24" height="24" fill="#8CC4EE"/>
+      <text x="810" y="468">Python</text>
+      <use data-icon="tabler-outline/device-tv" x="936" y="450" width="24" height="24" fill="#8CC4EE" stroke-width="1.5"/>
+      <text x="970" y="468">most TVs and set-top boxes</text>
+      <use data-icon="tabler-outline/car" x="660" y="490" width="24" height="24" fill="#8CC4EE" stroke-width="1.5"/>
+      <text x="694" y="508">most automotive multimedia systems</text>
+      <text x="1024" y="508" fill="#9FB6CF">…countless millions more</text>
+    </g>
+  </g>
+
+  <g id="zlib-note" data-pptx-bounds="640 546 576 70">
+    <line x1="640" y1="558" x2="660" y2="558" stroke="#FFB547" stroke-width="2"/>
+    <text x="670" y="564" font-size="16" fill="#9FB6CF">Probably the 2nd most deployed library after zlib — and since it is<tspan x="670" dy="22">often statically linked many times per device, it <tspan font-style="italic">might</tspan> be the 1st.</tspan></text>
+  </g>
+
+  <g id="title-block" data-pptx-role="footer" data-pptx-bounds="880 650 336 38">
+    <rect x="880" y="654" width="336" height="30" fill="#11294B" stroke="#2D4C74"/>
+    <line x1="972" y1="654" x2="972" y2="684" stroke="#2D4C74"/>
+    <text x="892" y="674" font-family="Consolas, monospace" font-size="13" fill="#8CC4EE">SHT 02/12</text>
+    <text x="984" y="674" font-size="13" fill="#9FB6CF">Source: sqlite.org/mostdeployed</text>
+  </g>
+</svg>

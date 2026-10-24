@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="ending">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F2EEE5" />
+
+  <g id="kicker" data-pptx-bounds="64 76 300 32">
+    <text x="64" y="96" font-size="15" fill="#6B665C" letter-spacing="2">12 · 结语 · NACHWIRKUNG</text>
+  </g>
+
+  <g id="motif-origin" data-pptx-role="decoration" data-pptx-bounds="410 96 460 460">
+    <circle cx="640" cy="326" r="230" fill="#C23B22" />
+  </g>
+
+  <g id="closing-claim" data-pptx-bounds="420 240 440 230" fill="#F2EEE5" text-anchor="middle">
+    <text font-weight="bold" font-size="56" x="640" y="304">留下的是方法，</text><text font-weight="bold" font-size="56" x="640" y="376">不是风格</text><text x="640" y="444" font-size="22">基础课 + 工坊 + 工业</text>
+  </g>
+
+  <g id="evidence-row" data-pptx-bounds="64 584 1152 76">
+    <g stroke="#BDB5A6" stroke-width="1">
+      <line x1="64" y1="588" x2="1216" y2="588" />
+      <line x1="448" y1="600" x2="448" y2="652" />
+      <line x1="832" y1="600" x2="832" y2="652" />
+    </g>
+    <g text-anchor="middle">
+      <text x="256" y="624" font-size="26" font-weight="bold" fill="#161616">14 年</text>
+      <text x="256" y="650" font-size="16" fill="#6B665C">1919–1933 · 魏玛 · 德绍 · 柏林</text>
+      <text x="640" y="624" font-size="26" font-weight="bold" fill="#161616">1,250 余名学生</text>
+      <text x="640" y="650" font-size="16" fill="#6B665C">来自 29 个国家</text>
+      <text x="1024" y="624" font-size="26" font-weight="bold" fill="#161616">1996 · 2017</text>
+      <text x="1024" y="650" font-size="16" fill="#6B665C">遗址列入世界遗产，后扩展至贝尔瑙</text>
+    </g>
+  </g>
+
+  <g id="sources" data-pptx-bounds="64 668 860 28">
+    <text x="64" y="688" font-size="13" fill="#6B665C">来源：Bauhaus Kooperation「The Bauhaus」· 维基百科「包豪斯」</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="960 668 256 28">
+    <text x="1216" y="688" font-size="13" fill="#6B665C" text-anchor="end">包豪斯 1919–1933 · 13</text>
+  </g>
+</svg>

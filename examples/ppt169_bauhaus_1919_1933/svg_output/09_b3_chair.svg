@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F2EEE5"/>
+
+  <g id="object-field" data-pptx-role="decoration" data-pptx-bounds="130 142 500 500">
+    <rect x="130" y="142" width="500" height="500" fill="#E4DDCF"/>
+  </g>
+
+  <g id="object-photo" data-pptx-bounds="128 172 512 488">
+    <image href="../images/wassily_chair.jpg" x="160" y="172" width="440" height="440" preserveAspectRatio="xMidYMid slice"/>
+    <text x="130" y="634" font-size="13" fill="#6B665C">图 © Tim Evanson from Cleveland Heights, Ohio, USA / Wikimedia / CC BY-SA 2.0</text>
+  </g>
+
+  <g id="header" data-pptx-bounds="700 70 516 176">
+    <text x="700" y="96" font-size="15" fill="#6B665C" letter-spacing="2">08 · 作品 ② · MÖBELWERKSTATT</text>
+    <text x="700" y="150" font-size="40" font-weight="bold" fill="#161616">从自行车到椅子</text>
+    <text x="700" y="196" font-size="22" fill="#1E1E1C">布劳耶在德绍家具工坊，把<tspan font-weight="bold" fill="#161616">自行车的钢管车架</tspan><tspan x="700" dy="33">变成了座椅结构。</tspan></text>
+  </g>
+
+  <g id="object-specs" data-pptx-bounds="700 262 516 186">
+    <g stroke="#BDB5A6" stroke-width="1">
+      <line x1="700" y1="270" x2="1216" y2="270"/>
+      <line x1="700" y1="314" x2="1216" y2="314"/>
+      <line x1="700" y1="358" x2="1216" y2="358"/>
+      <line x1="700" y1="402" x2="1216" y2="402"/>
+      <line x1="700" y1="446" x2="1216" y2="446"/>
+    </g>
+    <g font-size="16" fill="#6B665C">
+      <text x="700" y="298">设计者</text>
+      <text x="700" y="342">年份</text>
+      <text x="700" y="386">型号</text>
+      <text x="700" y="430">生产</text>
+    </g>
+    <g font-size="22" fill="#161616">
+      <text x="800" y="299">布劳耶 · 德绍家具工坊负责人</text>
+      <text x="800" y="343">1925–1926</text>
+      <text x="800" y="387">B3，后称“瓦西里椅”</text>
+      <text x="800" y="431">早期版本由 Thonet 生产</text>
+    </g>
+  </g>
+
+  <g id="inspiration-link" data-pptx-bounds="700 470 516 110">
+    <text x="700" y="492" font-size="15" font-weight="bold" fill="#B8862B" letter-spacing="2">灵感 · 1925</text>
+    <rect x="700" y="512" width="204" height="60" fill="none" stroke="#161616" stroke-width="2"/>
+    <text x="802" y="549" font-size="22" fill="#161616" text-anchor="middle">自行车钢管车架</text>
+    <rect x="988" y="512" width="228" height="60" fill="#161616"/>
+    <text x="1102" y="549" font-size="22" font-weight="bold" fill="#F2EEE5" text-anchor="middle">钢管座椅结构</text>
+  </g>
+<g id="p09-inspiration-arrow" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="rightArrow" data-pptx-frame="914 526 62 32" fill="#C23B22" stroke="none">
+<path d="M 914 534 L 960 534 L 960 526 L 976 542 L 960 558 L 960 550 L 914 550 Z"/>
+</g>
+
+  <g id="sources" data-pptx-bounds="700 610 516 30">
+    <text x="700" y="630" font-size="13" fill="#6B665C">来源：Wikipedia「Wassily Chair」</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="960 668 256 28">
+    <text x="1216" y="688" font-size="13" fill="#6B665C" text-anchor="end">包豪斯 1919–1933 · 09</text>
+  </g>
+</svg>

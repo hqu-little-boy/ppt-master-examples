@@ -1,0 +1,246 @@
+{
+  "schema": "ppt-master.fact-provenance.v1",
+  "topic": "包豪斯 1919–1933",
+  "facts": [
+    {
+      "fact_id": "F001",
+      "claim": "包豪斯由瓦尔特·格罗皮乌斯于1919年4月1日在魏玛创办，由萨克森大公美术学院与萨克森大公工艺美术学校合并而成。",
+      "source_title": "Bauhaus — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Bauhaus",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F002",
+      "claim": "1919年4月的包豪斯宣言（四页）开篇写道：“Das Endziel aller bildnerischen Tätigkeit ist der Bau!”（一切造型活动的最终目标是建筑！）",
+      "source_title": "Cathedral (title page) by Lyonel Feininger for Walter Gropius's Bauhaus Manifesto and Program, April 1, 1919 — German History in Documents and Images",
+      "source_url": "https://germanhistorydocs.org/en/weimar-germany-1918-1933/cathedral-title-page-by-lyonel-feininger-for-walter-gropius-bauhaus-manifesto-and-program-april-1-1919.pdf",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F003",
+      "claim": "宣言封面是费宁格的立体主义木刻《大教堂》，最初题为《社会主义大教堂》。",
+      "source_title": "Lyonel Feininger, Cathedral — MoMA Collection",
+      "source_url": "https://www.moma.org/collection/works/63072",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F004",
+      "claim": "包豪斯三阶段：魏玛 1919–1925，德绍 1925–1932，柏林 1932–1933。",
+      "source_title": "Bauhaus — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Bauhaus",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F005",
+      "claim": "三任校长：格罗皮乌斯 1919–1928，汉内斯·迈耶 1928–1930，密斯·凡德罗 1930–1933。",
+      "source_title": "Bauhaus — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Bauhaus",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F006",
+      "claim": "1919年首批教员为伊顿、费宁格、马克斯与格罗皮乌斯；施莱默与克利1920年加入，康定斯基1922年加入。",
+      "source_title": "Bauhaus — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Bauhaus",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F007",
+      "claim": "伊顿（任期1919.10.1–1923.3.31）主持预备课程并任多数工坊的形式导师；学生须通过预备课程才能选择工坊进入主课程。",
+      "source_title": "Johannes Itten's preliminary course — Bauhaus Kooperation",
+      "source_url": "https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/preliminary-course/johannes-ittens-preliminary-course",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F008",
+      "claim": "伊顿1923年离开后，莫霍利-纳吉重写预备课程，并与约瑟夫·阿尔伯斯共同主持。",
+      "source_title": "Josef Albers's preliminary course — Bauhaus Kooperation",
+      "source_url": "https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/preliminary-course/josef-alberss-preliminary-course",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F009",
+      "claim": "工坊实行双导师制：例如1923年起阿尔伯斯任玻璃画工坊的“工艺导师”，克利任“形式导师”。",
+      "source_title": "Josef Albers's preliminary course — Bauhaus Kooperation",
+      "source_url": "https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/preliminary-course/josef-alberss-preliminary-course",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F010",
+      "claim": "1923年包豪斯举办实验作品展（含号角屋 Haus am Horn），这是继续获得州政府资助的条件。",
+      "source_title": "Bauhaus — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Bauhaus",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F011",
+      "claim": "德绍校舍由格罗皮乌斯设计，1925年9月动工，1926年3月21日封顶，1926年12月4日落成。",
+      "source_title": "Bauhaus Dessau — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Bauhaus_Dessau",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F012",
+      "claim": "德绍校舍工坊翼有贯通三层的玻璃幕墙；普雷勒楼为五层，含28间师生起居工作室。",
+      "source_title": "Bauhaus Dessau — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Bauhaus_Dessau",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F013",
+      "claim": "瓦根菲尔德与尤克尔为魏玛金属工坊设计的台灯（MT8）首批于1924年春问世，有金属底座与玻璃底座两版；1924年的初期推销因仍靠手工组装而失败。",
+      "source_title": "MT8 table lamp — V&A Collections; Table lamp — MoMA",
+      "source_url": "https://collections.vam.ac.uk/item/O116634/mt8-table-lamp-wagenfeld-wilhelm/",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F014",
+      "claim": "布劳耶在德绍任家具工坊负责人时于1925–1926年设计B3钢管椅（后称瓦西里椅），灵感来自他1925年购买的自行车钢管车架。",
+      "source_title": "Wassily Chair — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Wassily_Chair",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F015",
+      "claim": "拜耳1925年起设计“通用字体”提案：几何无衬线、取消大写字母，仅存于设计稿，从未铸字；他1928年离开包豪斯。",
+      "source_title": "Herbert Bayer — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Herbert_Bayer",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F016",
+      "claim": "1930年夏，德绍市长黑塞以政治丑闻为由解聘迈耶。",
+      "source_title": "Bauhaus — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Bauhaus",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F017",
+      "claim": "1932年纳粹党接管安哈尔特州地方政府后德绍校区关闭；密斯在柏林租下一座废弃电话工厂续办约十个月。",
+      "source_title": "Bauhaus — Wikipedia (en); Ludwig Mies van der Rohe — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Ludwig_Mies_van_der_Rohe",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F018",
+      "claim": "1933年4月盖世太保搜查查封柏林包豪斯；1933年7月密斯与教员投票决定自行解散。",
+      "source_title": "Ludwig Mies van der Rohe — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Ludwig_Mies_van_der_Rohe",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F019",
+      "claim": "包豪斯前后共有超过1,250名学生，来自29个国家。",
+      "source_title": "The Bauhaus — Bauhaus Kooperation",
+      "source_url": "https://bauhauskooperation.de/en/knowledge/the-bauhaus/",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F020",
+      "claim": "119名教员中约15人在1933–1938年间移居国外。",
+      "source_title": "Bauhaus — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Bauhaus",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F021",
+      "claim": "格罗皮乌斯1934年赴英国，1937年2月抵美，1937–1952年任教哈佛设计研究生院。",
+      "source_title": "Walter Gropius — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Walter_Gropius",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F022",
+      "claim": "阿尔伯斯1933年移居美国，执教北卡罗来纳州黑山学院至1949年，1950年起主持耶鲁设计系。",
+      "source_title": "Josef Albers — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Josef_Albers",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F023",
+      "claim": "莫霍利-纳吉1937年在芝加哥创办新包豪斯，1944年更名设计学院，1949年并入伊利诺伊理工学院。",
+      "source_title": "New Bauhaus — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/New_Bauhaus",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F024",
+      "claim": "密斯1937/38年移居美国，主持芝加哥阿穆尔理工学院建筑系（1940年并入伊利诺伊理工学院）。",
+      "source_title": "Ludwig Mies van der Rohe — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Ludwig_Mies_van_der_Rohe",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F025",
+      "claim": "特拉维夫“白城”拥有4,000多座包豪斯/国际风格建筑，2003年列入世界文化遗产。",
+      "source_title": "Bauhaus — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Bauhaus",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F026",
+      "claim": "1953年马克斯·比尔、英格·艾舍-绍尔与奥托·艾舍创办乌尔姆设计学院（1968年关闭），延续包豪斯理念。",
+      "source_title": "Bauhaus — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Bauhaus",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F027",
+      "claim": "1996年魏玛与德绍的包豪斯遗址列入世界遗产名录，2017年扩展纳入贝尔瑙的联邦工会学校。",
+      "source_title": "包豪斯 — 维基百科（中文）",
+      "source_url": "https://zh.wikipedia.org/wiki/包浩斯",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F028",
+      "claim": "贡塔·施特尔策尔1919年入学，1927年成为织造工坊“青年导师”，是包豪斯首位获“导师”头衔的女性；1931年在政治压力下被迫辞职。",
+      "source_title": "Gunta Stölzl — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Gunta_Stölzl",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F029",
+      "claim": "约1,250名在籍学生中（1933年），约900人被认为留在了德国。",
+      "source_title": "Bauhaus — Wikipedia (en)",
+      "source_url": "https://en.wikipedia.org/wiki/Bauhaus",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "fact_id": "F030",
+      "claim": "1925 年包豪斯因魏玛所在地的地方政治变化迁往德绍。",
+      "source_title": "包豪斯 — 维基百科（中文）",
+      "source_url": "https://zh.wikipedia.org/wiki/包浩斯",
+      "classification": "external",
+      "retrieved_at": "2026-10-24"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "web_to_md.py",
+  "conversion_type": "web",
+  "source": {
+    "path": "https://www.sqlite.org/arch.html",
+    "name": "https://www.sqlite.org/arch.html",
+    "suffix": "",
+    "kind": "url",
+    "exists": false,
+    "size_bytes": null
+  },
+  "outputs": {
+    "markdown": "Architecture_of_SQLite.md",
+    "asset_dir": "",
+    "image_manifest": "",
+    "image_count": 0
+  },
+  "markdown": {
+    "line_count": 80,
+    "char_count": 12203,
+    "heading_count": 13,
+    "table_count": 0,
+    "image_ref_count": 0,
+    "link_count": 85
+  },
+  "warnings": []
+}

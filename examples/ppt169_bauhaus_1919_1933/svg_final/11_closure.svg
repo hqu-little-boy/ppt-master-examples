@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="section">
+  <defs>
+    <marker id="arrow-paper" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#BDB5A6" />
+    </marker>
+  </defs>
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#161616" />
+
+  <g id="ghost-year" data-pptx-role="decoration" data-pptx-bounds="760 120 460 172">
+    <text x="1216" y="246" font-size="120" font-family="&quot;Arial Black&quot;, &quot;Microsoft YaHei&quot;, sans-serif" fill="#F2EEE5" fill-opacity="0.07" text-anchor="end">1933</text>
+  </g>
+
+  <g id="header" data-pptx-bounds="64 70 700 160">
+    <text x="64" y="96" font-size="15" fill="#BDB5A6" letter-spacing="2">10 · 关闭 · BERLIN 1932–1933</text>
+    <text x="64" y="156" font-size="40" font-weight="bold" fill="#F2EEE5">1933：被迫落幕</text>
+    <text x="64" y="202" font-size="22" fill="#E4DDCF">从德绍被关到柏林自行解散，最后的包豪斯只撑了约十个月。</text>
+  </g>
+
+  <g id="closure-sequence" data-pptx-bounds="64 330 1152 300">
+    <g stroke="#BDB5A6" stroke-width="2">
+      <line x1="136" y1="380" x2="398" y2="380" marker-end="url(#arrow-paper)" />
+      <line x1="436" y1="380" x2="698" y2="380" marker-end="url(#arrow-paper)" />
+      <line x1="736" y1="380" x2="976" y2="380" marker-end="url(#arrow-paper)" />
+    </g>
+    <circle cx="120" cy="380" r="12" fill="none" stroke="#F2EEE5" stroke-width="3" />
+    <circle cx="420" cy="380" r="12" fill="none" stroke="#F2EEE5" stroke-width="3" />
+    <circle cx="720" cy="380" r="12" fill="none" stroke="#F2EEE5" stroke-width="3" />
+    <circle cx="1000" cy="380" r="16" fill="#C23B22" />
+    <g font-size="26" font-weight="bold" fill="#F2EEE5">
+      <text x="108" y="446">1932</text>
+      <text x="408" y="446">1932 年末</text>
+      <text x="708" y="446">1933.4</text>
+      <text x="984" y="446" fill="#C23B22">1933.7</text>
+    </g>
+    <g font-size="22" fill="#E4DDCF">
+      <text x="108" y="488">纳粹党接管安哈尔特州</text><text x="108" y="521">政府，德绍校区关闭</text><text x="408" y="488">密斯在柏林租下一座</text><text x="408" y="521">废弃电话工厂续办</text><text x="708" y="488">盖世太保搜查、</text><text x="708" y="521">查封学校</text><text x="984" y="488">密斯与教员投票，</text><text x="984" y="521"><tspan><tspan font-weight="bold" fill="#F2EEE5">自行解散</tspan></tspan></text></g>
+  </g>
+
+  <g id="sources" data-pptx-bounds="64 668 860 28">
+    <text x="64" y="688" font-size="13" fill="#BDB5A6">来源：Wikipedia「Bauhaus」「Ludwig Mies van der Rohe」</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="960 668 256 28">
+    <text x="1216" y="688" font-size="13" fill="#BDB5A6" text-anchor="end">包豪斯 1919–1933 · 11</text>
+  </g>
+</svg>
