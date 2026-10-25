@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F2EEE5"/>
+
+  <g id="object-field" data-pptx-role="decoration" data-pptx-bounds="112 124 536 536">
+    <circle cx="380" cy="392" r="268" fill="#E4DDCF"/>
+  </g>
+
+  <g id="object-photo" data-pptx-bounds="144 183 472 476">
+    <image href="../images/mt8_lamp.jpg" x="144" y="183" width="472" height="418" preserveAspectRatio="xMidYMid meet"/>
+    <text x="144" y="626" font-size="13" fill="#6B665C">左：尤克尔玻璃底座版（1923–24） 右：瓦根菲尔德金属底座版（1924）</text>
+    <text x="144" y="646" font-size="13" fill="#6B665C">图 © sailko / Wikimedia / CC BY-SA 3.0</text>
+  </g>
+
+  <g id="header" data-pptx-bounds="700 70 516 176">
+    <text x="700" y="96" font-size="15" fill="#6B665C" letter-spacing="2">07 · 作品 ① · METALLWERKSTATT</text>
+    <text x="700" y="150" font-size="40" font-weight="bold" fill="#161616">一盏灯里的圆、柱、球</text>
+    <text x="700" y="196" font-size="22" fill="#1E1E1C">1924 年的 MT8 台灯以纯几何形构成，<tspan x="700" dy="33">初期推销却因<tspan font-weight="bold" fill="#C23B22">仍靠手工组装</tspan>而失败。</tspan></text>
+  </g>
+
+  <g id="object-specs" data-pptx-bounds="700 262 516 186">
+    <g stroke="#BDB5A6" stroke-width="1">
+      <line x1="700" y1="270" x2="1216" y2="270"/>
+      <line x1="700" y1="314" x2="1216" y2="314"/>
+      <line x1="700" y1="358" x2="1216" y2="358"/>
+      <line x1="700" y1="402" x2="1216" y2="402"/>
+      <line x1="700" y1="446" x2="1216" y2="446"/>
+    </g>
+    <g font-size="16" fill="#6B665C">
+      <text x="700" y="298">设计者</text>
+      <text x="700" y="342">工坊</text>
+      <text x="700" y="386">首批</text>
+      <text x="700" y="430">版本</text>
+    </g>
+    <g font-size="22" fill="#161616">
+      <text x="800" y="299">瓦根菲尔德 + 尤克尔</text>
+      <text x="800" y="343">魏玛金属工坊</text>
+      <text x="800" y="387">1924 年春</text>
+      <text x="800" y="431">金属底座 · 玻璃底座</text>
+    </g>
+  </g>
+
+  <g id="geometry-key" data-pptx-bounds="700 470 516 130">
+    <text x="700" y="492" font-size="15" font-weight="bold" fill="#B8862B" letter-spacing="2">拆成三个基本形</text>
+    <circle cx="724" cy="548" r="24" fill="#161616"/>
+    <text x="758" y="556" font-size="22" fill="#161616">灯罩 · 球</text>
+    <rect x="872" y="520" width="16" height="56" fill="#161616"/>
+    <text x="900" y="556" font-size="22" fill="#161616">灯杆 · 柱</text>
+    <ellipse cx="1046" cy="560" rx="32" ry="10" fill="#C23B22"/>
+    <text x="1088" y="556" font-size="22" fill="#161616">底座 · 圆</text>
+  </g>
+
+  <g id="sources" data-pptx-bounds="700 610 516 30">
+    <text x="700" y="630" font-size="13" fill="#6B665C">来源：V&amp;A Collections「MT8 table lamp」· MoMA「Table lamp」</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="960 668 256 28">
+    <text x="1216" y="688" font-size="13" fill="#6B665C" text-anchor="end">包豪斯 1919–1933 · 08</text>
+  </g>
+</svg>

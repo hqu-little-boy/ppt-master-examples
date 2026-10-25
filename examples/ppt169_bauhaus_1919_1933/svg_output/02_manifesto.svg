@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F2EEE5" />
+
+  <g id="manifesto-woodcut" data-pptx-bounds="96 64 394 592">
+    <image href="../images/feininger_cathedral.jpg" x="96" y="64" width="394" height="592" preserveAspectRatio="xMidYMid meet" />
+  </g>
+
+  <g id="header" data-pptx-bounds="560 84 656 100">
+    <text x="560" y="106" font-size="15" fill="#6B665C" letter-spacing="2">01 · 起点 · WEIMAR 1919</text>
+    <text x="560" y="166" font-size="40" font-weight="bold" fill="#161616">一切从一句话开始</text>
+  </g>
+
+  <g id="manifesto-quote" data-pptx-bounds="560 214 540 160">
+    <text x="560" y="264" font-size="34" font-family="SimSun, Cambria, serif" fill="#161616">“一切造型活动的</text>
+    <text x="560" y="316" font-size="34" font-family="SimSun, Cambria, serif" fill="#161616">最终目标是<tspan fill="#C23B22">建筑</tspan>！”</text>
+    <text x="560" y="358" font-size="16" font-style="italic" fill="#6B665C">Das Endziel aller bildnerischen Tätigkeit ist der Bau!</text>
+  </g>
+
+  <g id="motif-seal" data-pptx-role="decoration" data-pptx-bounds="1110 226 92 92">
+    <circle cx="1156" cy="272" r="44" fill="#C23B22" />
+  </g>
+
+  <g id="fact-merger" data-pptx-bounds="560 392 656 116">
+    <line x1="560" y1="400" x2="1216" y2="400" stroke="#161616" stroke-width="2" />
+    <text x="560" y="434" font-size="15" font-weight="bold" fill="#B8862B" letter-spacing="2">合并 · 1919.4.1</text>
+    <text x="560" y="468" font-size="22" fill="#1E1E1C">格罗皮乌斯在魏玛合并萨克森大公美术学院与<tspan x="560" dy="33">工艺美术学校，创办<tspan font-weight="bold" fill="#161616">国立包豪斯</tspan>。</tspan></text>
+  </g>
+
+  <g id="fact-cover" data-pptx-bounds="560 516 656 120">
+    <line x1="560" y1="522" x2="1216" y2="522" stroke="#BDB5A6" stroke-width="1" />
+    <text x="560" y="554" font-size="15" font-weight="bold" fill="#B8862B" letter-spacing="2">宣言封面</text>
+    <text x="560" y="588" font-size="22" fill="#1E1E1C">费宁格的立体主义木刻《大教堂》，<tspan x="560" dy="33">最初题为《社会主义大教堂》。</tspan></text>
+  </g>
+
+  <g id="credit" data-pptx-bounds="96 664 520 40" fill="#6B665C" font-size="13">
+    <text x="96" y="684">图 © Francesco Bini / Wikimedia / CC BY-SA 4.0</text>
+    <text x="96" y="700">来源：Wikipedia「Bauhaus」· German History in Documents · MoMA</text>
+  </g>
+
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="960 668 256 28">
+    <text x="1216" y="688" font-size="13" fill="#6B665C" text-anchor="end">包豪斯 1919–1933 · 02</text>
+  </g>
+</svg>

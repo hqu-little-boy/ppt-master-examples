@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Segoe UI, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#0B1F3A" />
+  <g id="sheet-grid" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#16305A" stroke-width="1">
+    <line x1="128" y1="20" x2="128" y2="700" /><line x1="256" y1="20" x2="256" y2="700" /><line x1="384" y1="20" x2="384" y2="700" /><line x1="512" y1="20" x2="512" y2="700" /><line x1="640" y1="20" x2="640" y2="700" /><line x1="768" y1="20" x2="768" y2="700" /><line x1="896" y1="20" x2="896" y2="700" /><line x1="1024" y1="20" x2="1024" y2="700" /><line x1="1152" y1="20" x2="1152" y2="700" />
+    <line x1="20" y1="128" x2="1260" y2="128" /><line x1="20" y1="256" x2="1260" y2="256" /><line x1="20" y1="384" x2="1260" y2="384" /><line x1="20" y1="512" x2="1260" y2="512" /><line x1="20" y1="640" x2="1260" y2="640" />
+    <rect x="20" y="20" width="1240" height="680" fill="none" stroke="#2D4C74" />
+  </g>
+
+  <g id="header" data-pptx-bounds="64 44 1152 100">
+    <text x="64" y="78" font-size="15" letter-spacing="2" fill="#8CC4EE">04 · HOW IT WORKS — COMPILE PATH (LAYERS 02–04)</text>
+    <text x="64" y="126" font-family="Bahnschrift, sans-serif" font-size="40" fill="#EAF2FB">From SQL text to a bytecode program</text>
+  </g>
+
+  <g id="stack-rail" data-pptx-bounds="64 164 160 432">
+    <g fill="#11294B" stroke="#8CC4EE" stroke-width="1.5">
+      <rect x="64" y="168" width="160" height="46" rx="2" />
+      <rect x="64" y="222" width="160" height="46" rx="2" stroke="#FFB547" />
+      <rect x="64" y="276" width="160" height="46" rx="2" stroke="#FFB547" />
+      <rect x="64" y="330" width="160" height="46" rx="2" stroke="#FFB547" />
+      <rect x="64" y="384" width="160" height="46" rx="2" />
+      <rect x="64" y="438" width="160" height="46" rx="2" />
+      <rect x="64" y="492" width="160" height="46" rx="2" />
+      <rect x="64" y="546" width="160" height="46" rx="2" />
+    </g>
+    <g font-size="16" fill="#9FB6CF">
+      <text x="104" y="197">Interface</text>
+      <text x="104" y="251" fill="#EAF2FB">Tokenizer</text>
+      <text x="104" y="305" fill="#EAF2FB">Parser</text>
+      <text x="104" y="359" fill="#EAF2FB">Code Gen</text>
+      <text x="104" y="413">VDBE</text>
+      <text x="104" y="467">B-tree</text>
+      <text x="104" y="521">Pager</text>
+      <text x="104" y="575">VFS</text>
+    </g>
+    <g font-family="Consolas, monospace" font-size="15" fill="#8CC4EE">
+      <text x="74" y="197">01</text>
+      <text x="74" y="251" fill="#FFB547">02</text>
+      <text x="74" y="305" fill="#FFB547">03</text>
+      <text x="74" y="359" fill="#FFB547">04</text>
+      <text x="74" y="413">05</text>
+      <text x="74" y="467">06</text>
+      <text x="74" y="521">07</text>
+      <text x="74" y="575">08</text>
+    </g>
+  </g>
+
+  <g id="sql-input" data-pptx-bounds="264 156 952 60">
+    <rect x="264" y="160" width="952" height="52" fill="none" stroke="#2D4C74" stroke-width="1.25" stroke-dasharray="4,4" rx="2" />
+    <text x="282" y="192" font-size="15" letter-spacing="2" fill="#9FB6CF">SQL TEXT</text>
+    <text x="400" y="193" font-family="Consolas, monospace" font-size="19" fill="#EAF2FB">SELECT name FROM users WHERE id = ?</text>
+  </g>
+
+  <g id="stage-tokenizer" data-pptx-bounds="264 232 232 254">
+    <g id="p05-stage-tokenizer" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="homePlate" data-pptx-frame="264 236 232 52" fill="#11294B" stroke="#FFB547" stroke-width="1.5">
+<path d="M 264 236 L 470 236 L 496 262 L 470 288 L 264 288 Z" />
+</g>
+    <text x="370" y="268" font-size="15" letter-spacing="2" fill="#FFB547" text-anchor="middle">TOKENIZER</text>
+    <text x="272" y="330" font-size="20" fill="#EAF2FB">Splits SQL text into<tspan x="272" dy="28">tokens; hand-coded</tspan><tspan x="272" dy="28">in <tspan font-family="Consolas, monospace" font-size="19" fill="#8CC4EE">tokenize.c</tspan>.</tspan><tspan x="272" dy="28" font-weight="bold" fill="#FFB547">The tokenizer calls</tspan><tspan x="272" dy="28" font-weight="bold" fill="#FFB547">the parser</tspan><tspan x="272" dy="28">— threadsafe, faster.</tspan></text>
+  </g>
+
+  <g id="stage-parser" data-pptx-bounds="500 232 236 254">
+    <g id="p05-stage-parser" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="500 236 236 52" fill="#11294B" stroke="#FFB547" stroke-width="1.5">
+<path d="M 500 236 L 710 236 L 736 262 L 710 288 L 500 288 L 526 262 Z" />
+</g>
+    <text x="618" y="268" font-size="15" letter-spacing="2" fill="#FFB547" text-anchor="middle">PARSER</text>
+    <text x="508" y="330" font-size="20" fill="#EAF2FB">Gives tokens meaning<tspan x="508" dy="28">by context; generated</tspan><tspan x="508" dy="28">by Lemon from <tspan font-family="Consolas, monospace" font-size="19" fill="#8CC4EE">parse.y</tspan></tspan><tspan x="508" dy="28">— reentrant, thread-</tspan><tspan x="508" dy="28">safe, no leaks on</tspan><tspan x="508" dy="28">syntax errors.</tspan></text>
+  </g>
+
+  <g id="stage-codegen" data-pptx-bounds="740 232 236 254">
+    <g id="p05-stage-codegen" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="740 236 236 52" fill="#11294B" stroke="#FFB547" stroke-width="1.5">
+<path d="M 740 236 L 950 236 L 976 262 L 950 288 L 740 288 L 766 262 Z" />
+</g>
+    <text x="858" y="268" font-size="15" letter-spacing="2" fill="#FFB547" text-anchor="middle">CODE GENERATOR</text>
+    <text x="748" y="330" font-size="20" fill="#EAF2FB">Walks the parse tree<tspan x="748" dy="28">and emits bytecode.</tspan><tspan x="748" dy="28"><tspan font-family="Consolas, monospace" font-size="19" fill="#8CC4EE">where*.c</tspan> + <tspan font-family="Consolas, monospace" font-size="19" fill="#8CC4EE">select.c</tspan></tspan><tspan x="748" dy="28">are the query planner,</tspan><tspan x="748" dy="28">picking among possibly</tspan><tspan x="748" dy="28">millions of algorithms.</tspan></text>
+  </g>
+
+  <g id="stage-vdbe" data-pptx-bounds="980 232 236 254">
+    <g id="p05-stage-vdbe" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="980 236 236 52" fill="#11294B" stroke="#8CC4EE" stroke-width="1.5">
+<path d="M 980 236 L 1190 236 L 1216 262 L 1190 288 L 980 288 L 1006 262 Z" />
+</g>
+    <text x="1098" y="268" font-size="15" letter-spacing="2" fill="#8CC4EE" text-anchor="middle">VDBE</text>
+    <text x="988" y="330" font-size="20" fill="#EAF2FB"><tspan font-family="Consolas, monospace" font-size="19" fill="#8CC4EE">sqlite3_stmt</tspan> holds<tspan x="988" dy="28">one bytecode program;</tspan><tspan x="988" dy="28"><tspan font-family="Consolas, monospace" font-size="19" fill="#8CC4EE">sqlite3_step()</tspan> runs</tspan><tspan x="988" dy="28">it until done, a row,</tspan><tspan x="988" dy="28">a fatal error, or</tspan><tspan x="988" dy="28">an interrupt.</tspan></text>
+  </g>
+
+  <g id="api-prepare" data-pptx-bounds="264 500 712 60">
+    <line x1="266" y1="516" x2="974" y2="516" stroke="#8CC4EE" stroke-width="1.25" />
+    <line x1="266" y1="506" x2="266" y2="526" stroke="#8CC4EE" stroke-width="1.25" />
+    <line x1="974" y1="506" x2="974" y2="526" stroke="#8CC4EE" stroke-width="1.25" />
+    <text x="620" y="550" font-family="Consolas, monospace" font-size="17" fill="#8CC4EE" text-anchor="middle">sqlite3_prepare_v2()  ·  compile</text>
+  </g>
+
+  <g id="api-step" data-pptx-bounds="980 500 236 60">
+    <line x1="984" y1="516" x2="1214" y2="516" stroke="#FFB547" stroke-width="1.25" />
+    <line x1="984" y1="506" x2="984" y2="526" stroke="#FFB547" stroke-width="1.25" />
+    <line x1="1214" y1="506" x2="1214" y2="526" stroke="#FFB547" stroke-width="1.25" />
+    <text x="1099" y="550" font-family="Consolas, monospace" font-size="17" fill="#FFB547" text-anchor="middle">sqlite3_step() · run</text>
+  </g>
+
+  <g id="tokenizer-inversion" data-pptx-bounds="264 580 600 52" font-size="16">
+    <text x="264" y="600" fill="#9FB6CF">YACC/BISON habit: the parser calls the tokenizer.</text>
+    <text x="264" y="624" fill="#EAF2FB">SQLite inverts it: <tspan font-weight="bold" fill="#FFB547">the tokenizer calls the parser.</tspan></text>
+  </g>
+
+  <g id="title-block" data-pptx-role="footer" data-pptx-bounds="880 650 336 38">
+    <rect x="880" y="654" width="336" height="30" fill="#11294B" stroke="#2D4C74" />
+    <line x1="972" y1="654" x2="972" y2="684" stroke="#2D4C74" />
+    <text x="892" y="674" font-family="Consolas, monospace" font-size="13" fill="#8CC4EE">SHT 05/12</text>
+    <text x="984" y="674" font-size="13" fill="#9FB6CF">Source: sqlite.org/arch</text>
+  </g>
+</svg>

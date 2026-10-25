@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "web_to_md.py",
+  "conversion_type": "web",
+  "source": {
+    "path": "https://www.sqlite.org/testing.html",
+    "name": "https://www.sqlite.org/testing.html",
+    "suffix": "",
+    "kind": "url",
+    "exists": false,
+    "size_bytes": null
+  },
+  "outputs": {
+    "markdown": "How_SQLite_Is_Tested.md",
+    "asset_dir": "",
+    "image_manifest": "",
+    "image_count": 0
+  },
+  "markdown": {
+    "line_count": 475,
+    "char_count": 50269,
+    "heading_count": 40,
+    "table_count": 0,
+    "image_ref_count": 0,
+    "link_count": 112
+  },
+  "warnings": []
+}

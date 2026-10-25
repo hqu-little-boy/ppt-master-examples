@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F2EEE5" />
+
+  <g id="curriculum-rings" data-pptx-bounds="110 130 540 536">
+    <circle cx="380" cy="400" r="260" fill="#E4DDCF" />
+    <circle cx="380" cy="400" r="168" fill="#F2EEE5" stroke="#161616" stroke-width="1.5" />
+    <circle cx="380" cy="400" r="78" fill="#C23B22" />
+    <g text-anchor="middle">
+      <text x="380" y="190" font-size="22" font-weight="bold" fill="#161616">预备课程</text>
+      <text x="380" y="214" font-size="16" fill="#6B665C">Vorkurs · 人人必修</text>
+      <text x="380" y="588" font-size="16" fill="#1E1E1C">自然与材料研究 · 色彩与形式理论</text>
+      <text x="380" y="612" font-size="16" fill="#1E1E1C">古代大师分析 · 写生</text>
+      <text x="380" y="280" font-size="22" font-weight="bold" fill="#161616">工坊</text>
+      <text x="380" y="304" font-size="16" fill="#6B665C">主课程</text>
+      <text x="380" y="524" font-size="16" fill="#1E1E1C">通过预备课程后选择</text>
+      <text x="380" y="410" font-size="28" font-weight="bold" fill="#F2EEE5">建筑</text>
+      <text x="380" y="436" font-size="16" fill="#F2EEE5">Bau</text>
+    </g>
+  </g>
+
+  <g id="header" data-pptx-bounds="720 70 496 176">
+    <text x="720" y="96" font-size="15" fill="#6B665C" letter-spacing="2">03 · 方法 · VORKURS</text>
+    <text x="720" y="150" font-size="40" font-weight="bold" fill="#161616">先上同一门基础课</text>
+    <text font-size="22" fill="#1E1E1C" x="720" y="196">学生必须先<tspan font-weight="bold" fill="#161616">通过预备课程</tspan>，</text><text font-size="22" fill="#1E1E1C" x="720" y="229">才能选择工坊、进入主课程。</text></g>
+
+  <g id="course-sequence" data-pptx-bounds="720 268 496 304">
+    <line x1="736" y1="290" x2="736" y2="512" stroke="#161616" stroke-width="2" />
+    <circle cx="736" cy="290" r="10" fill="#161616" />
+    <circle cx="736" cy="400" r="10" fill="#161616" />
+    <circle cx="736" cy="512" r="10" fill="#C23B22" />
+    <text x="764" y="298" font-size="22" font-weight="bold" fill="#161616">伊顿 · 1919–1923</text>
+    <text font-size="16" fill="#1E1E1C" x="764" y="326">自然与材料研究、色彩与形式理论、</text><text font-size="16" fill="#1E1E1C" x="764" y="350">古代大师作品分析、写生</text><text x="764" y="408" font-size="22" font-weight="bold" fill="#161616">1923 年后</text>
+    <text font-size="16" fill="#1E1E1C" x="764" y="436">莫霍利-纳吉重写预备课程，</text><text font-size="16" fill="#1E1E1C" x="764" y="460">与阿尔伯斯共同主持</text><text x="764" y="520" font-size="22" font-weight="bold" fill="#C23B22">终点：建筑</text>
+    <text x="764" y="548" font-size="16" fill="#1E1E1C">宣言：一切造型活动的最终目标是建筑</text>
+  </g>
+
+  <g id="sources" data-pptx-bounds="64 668 880 28">
+    <text x="64" y="688" font-size="13" fill="#6B665C">示意图：按 Bauhaus Kooperation 对预备课程的描述整理，非原始课程图 · 来源：Bauhaus Kooperation · Wikipedia「Bauhaus」</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="960 668 256 28">
+    <text x="1216" y="688" font-size="13" fill="#6B665C" text-anchor="end">包豪斯 1919–1933 · 04</text>
+  </g>
+</svg>

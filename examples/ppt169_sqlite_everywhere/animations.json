@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "defaults": {
+    "transition": { "effect": "fade", "duration": 0.6 },
+    "animation": { "effect": "none", "trigger": "after-previous", "duration": 0.5 }
+  },
+  "slides": {
+    "01_cover": {
+      "groups": {
+        "cover-title": { "effect": "entrance_fade", "duration": 0.8, "order": 1 },
+        "cover-subtitle": { "effect": "entrance_fade", "duration": 0.6, "order": 2 },
+        "cover-tags": { "effect": "entrance_wipe", "effect_options": { "direction": "down" }, "duration": 0.8, "order": 3 }
+      }
+    },
+    "02_most_deployed": {
+      "groups": {
+        "arithmetic": { "effect": "entrance_wipe", "effect_options": { "direction": "down" }, "duration": 0.9, "order": 1 },
+        "hosts-every": { "effect": "entrance_fade", "duration": 0.5, "order": 2 },
+        "hosts-also": { "effect": "entrance_fade", "duration": 0.5, "order": 3 },
+        "zlib-note": { "effect": "entrance_fade", "duration": 0.4, "order": 4 }
+      }
+    },
+    "03_serverless": {
+      "groups": {
+        "lane-client-server": { "effect": "entrance_wipe", "effect_options": { "direction": "down" }, "duration": 0.8, "order": 1 },
+        "lane-sqlite": { "effect": "entrance_wipe", "effect_options": { "direction": "down" }, "duration": 0.8, "order": 2 },
+        "file-properties": { "effect": "entrance_fade", "duration": 0.5, "order": 3 }
+      }
+    },
+    "04_layer_stack": {
+      "groups": {
+        "stack-rail": { "effect": "entrance_wipe", "effect_options": { "direction": "down" }, "duration": 1.0, "order": 1 },
+        "stack-files": { "effect": "entrance_fade", "duration": 0.4, "order": 2 },
+        "stack-groups": { "effect": "entrance_fade", "duration": 0.4, "order": 3 },
+        "explain-compile": { "effect": "entrance_fade", "duration": 0.5, "order": 4 },
+        "explain-execute": { "effect": "entrance_fade", "duration": 0.5, "order": 5 },
+        "explain-store": { "effect": "entrance_fade", "duration": 0.5, "order": 6 }
+      }
+    },
+    "05_compile_path": {
+      "transition": { "effect": "morph", "effect_options": { "morph_by": "object" }, "duration": 0.9 },
+      "morph": { "from": "04_layer_stack", "pairs": { "stack-rail": { "from": "stack-rail", "to": "stack-rail" } } },
+      "groups": {
+        "sql-input": { "effect": "entrance_fade", "duration": 0.4, "order": 1 },
+        "stage-tokenizer": { "effect": "entrance_wipe", "effect_options": { "direction": "right" }, "duration": 0.5, "order": 2 },
+        "stage-parser": { "effect": "entrance_wipe", "effect_options": { "direction": "right" }, "duration": 0.5, "order": 3 },
+        "stage-codegen": { "effect": "entrance_wipe", "effect_options": { "direction": "right" }, "duration": 0.5, "order": 4 },
+        "stage-vdbe": { "effect": "entrance_wipe", "effect_options": { "direction": "right" }, "duration": 0.5, "order": 5 },
+        "api-prepare": { "effect": "entrance_fade", "duration": 0.4, "order": 6 },
+        "api-step": { "effect": "entrance_fade", "duration": 0.4, "order": 7 },
+        "tokenizer-inversion": { "effect": "entrance_fade", "duration": 0.4, "order": 8 }
+      }
+    },
+    "06_storage_path": {
+      "transition": { "effect": "morph", "effect_options": { "morph_by": "object" }, "duration": 0.9 },
+      "morph": { "from": "05_compile_path", "pairs": { "stack-rail": { "from": "stack-rail", "to": "stack-rail" } } },
+      "groups": {
+        "storage-chain": { "effect": "entrance_wipe", "effect_options": { "direction": "right" }, "duration": 0.6, "order": 1 },
+        "page-anatomy": { "effect": "entrance_wipe", "effect_options": { "direction": "right" }, "duration": 0.9, "order": 2 },
+        "btree-kinds": { "effect": "entrance_fade", "duration": 0.5, "order": 3 },
+        "file-facts": { "effect": "entrance_fade", "duration": 0.5, "order": 4 }
+      }
+    },
+    "07_journal_vs_wal": {
+      "groups": {
+        "rb-diagram": { "effect": "entrance_wipe", "effect_options": { "direction": "right" }, "duration": 0.8, "order": 1 },
+        "rb-commit": { "effect": "entrance_fade", "duration": 0.4, "order": 2 },
+        "wal-db": { "effect": "entrance_fade", "duration": 0.4, "order": 3 },
+        "wal-writer": { "effect": "entrance_fade", "duration": 0.4, "order": 4 },
+        "wal-file": { "effect": "entrance_wipe", "effect_options": { "direction": "right" }, "duration": 0.7, "order": 5 },
+        "wal-commit": { "effect": "entrance_fade", "duration": 0.4, "order": 6 }
+      }
+    },
+    "08_wal_concurrency": {
+      "transition": { "effect": "morph", "effect_options": { "morph_by": "object" }, "duration": 1.0 },
+      "morph": { "from": "07_journal_vs_wal", "pairs": { "wal-file": { "from": "wal-file", "to": "wal-file" } } },
+      "groups": {
+        "end-marks": { "effect": "entrance_wipe", "effect_options": { "direction": "down" }, "duration": 0.4, "order": 1 },
+        "writer-note": { "effect": "entrance_fade", "duration": 0.4, "order": 2 },
+        "checkpoint": { "effect": "entrance_wipe", "effect_options": { "direction": "down" }, "duration": 0.5, "order": 3 },
+        "checkpoint-note": { "effect": "entrance_fade", "duration": 0.4, "order": 4 },
+        "col-consistency": { "effect": "entrance_fade", "duration": 0.4, "order": 5 },
+        "col-pros": { "effect": "entrance_fade", "duration": 0.4, "order": 6 },
+        "col-cons": { "effect": "entrance_fade", "duration": 0.4, "order": 7 }
+      }
+    },
+    "09_testing_culture": {
+      "groups": {
+        "ratio-hero": { "effect": "entrance_zoom", "duration": 0.8, "order": 1 },
+        "harness-table": { "effect": "entrance_fade", "duration": 0.6, "order": 2 },
+        "test-extras": { "effect": "entrance_fade", "duration": 0.4, "order": 3 }
+      }
+    },
+    "10_public_domain": {
+      "groups": {
+        "pd-quote": { "effect": "entrance_fade", "duration": 0.8, "order": 1 },
+        "pd-affidavits": { "effect": "entrance_fade", "duration": 0.4, "order": 2 },
+        "pd-arrow-1": { "effect": "entrance_wipe", "effect_options": { "direction": "right" }, "duration": 0.3, "order": 3 },
+        "pd-scratch": { "effect": "entrance_fade", "duration": 0.4, "order": 4 },
+        "pd-arrow-2": { "effect": "entrance_wipe", "effect_options": { "direction": "right" }, "duration": 0.3, "order": 5 },
+        "pd-contribution": { "effect": "entrance_fade", "duration": 0.4, "order": 6 },
+        "pd-warranty": { "effect": "entrance_fade", "duration": 0.4, "order": 7 }
+      }
+    },
+    "11_when_to_use": {
+      "groups": {
+        "gate-network": { "effect": "entrance_wipe", "effect_options": { "direction": "down" }, "duration": 0.5, "order": 1 },
+        "gate-writers": { "effect": "entrance_wipe", "effect_options": { "direction": "down" }, "duration": 0.5, "order": 2 },
+        "gate-size": { "effect": "entrance_wipe", "effect_options": { "direction": "down" }, "duration": 0.5, "order": 3 },
+        "gate-choose": { "effect": "entrance_zoom", "duration": 0.6, "order": 4 },
+        "works-well": { "effect": "entrance_fade", "duration": 0.5, "order": 5 },
+        "traffic-note": { "effect": "entrance_fade", "duration": 0.4, "order": 6 }
+      }
+    },
+    "12_closing": {
+      "groups": {
+        "closing-title": { "effect": "entrance_fade", "duration": 0.8, "order": 1 },
+        "closing-takeaway": { "effect": "entrance_fade", "duration": 0.6, "order": 2 },
+        "reason-architecture": { "effect": "entrance_float", "duration": 0.5, "order": 3 },
+        "reason-trust": { "effect": "entrance_float", "duration": 0.5, "order": 4 },
+        "reason-freedom": { "effect": "entrance_float", "duration": 0.5, "order": 5 },
+        "closing-motto": { "effect": "entrance_fade", "duration": 0.6, "order": 6 }
+      }
+    }
+  }
+}

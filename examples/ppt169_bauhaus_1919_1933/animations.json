@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "slides": {
+    "02_manifesto": {
+      "transition": { "effect": "morph", "effect_options": { "morph_by": "object" }, "duration": 0.9 },
+      "morph": { "from": "01_cover", "pairs": { "motif-seal": { "from": "motif-seal", "to": "motif-seal" } } },
+      "groups": {
+        "manifesto-quote": { "effect": "entrance_fade", "trigger": "after-previous", "delay": 0.3, "duration": 0.6 }
+      }
+    },
+    "03_timeline": {
+      "groups": {
+        "phases-timeline": { "effect": "entrance_wipe", "effect_options": { "direction": "right" }, "trigger": "after-previous", "duration": 1.0 },
+        "events": { "effect": "entrance_fade", "trigger": "after-previous", "duration": 0.4 }
+      }
+    },
+    "04_vorkurs": {
+      "groups": {
+        "curriculum-rings": { "effect": "entrance_fade", "trigger": "after-previous", "duration": 0.6 },
+        "course-sequence": { "effect": "entrance_wipe", "effect_options": { "direction": "down" }, "trigger": "after-previous", "duration": 0.8 }
+      }
+    },
+    "05_workshops": {
+      "groups": {
+        "dual-masters": { "effect": "entrance_fade", "trigger": "after-previous", "duration": 0.6 }
+      }
+    },
+    "06_people": {
+      "groups": {
+        "teachers": { "effect": "entrance_wipe", "effect_options": { "direction": "down" }, "trigger": "after-previous", "duration": 0.8 }
+      }
+    },
+    "07_dessau_building": {
+      "groups": {
+        "build-dates": { "effect": "entrance_fade", "trigger": "after-previous", "duration": 0.5 },
+        "glass-callout": { "effect": "entrance_fade", "trigger": "after-previous", "duration": 0.4 }
+      }
+    },
+    "08_mt8_lamp": {
+      "groups": {
+        "object-photo": { "effect": "entrance_fade", "trigger": "after-previous", "duration": 0.6 }
+      }
+    },
+    "09_b3_chair": {
+      "transition": { "effect": "morph", "effect_options": { "morph_by": "object" }, "duration": 0.8 },
+      "morph": { "from": "08_mt8_lamp", "pairs": { "object-field": { "from": "object-field", "to": "object-field" } } },
+      "groups": {
+        "object-photo": { "effect": "entrance_fade", "trigger": "after-previous", "duration": 0.6 }
+      }
+    },
+    "10_universal_type": {
+      "transition": { "effect": "morph", "effect_options": { "morph_by": "object" }, "duration": 0.8 },
+      "morph": { "from": "09_b3_chair", "pairs": { "object-field": { "from": "object-field", "to": "object-field" } } },
+      "groups": {
+        "type-specimen": { "effect": "entrance_fade", "trigger": "after-previous", "duration": 0.6 }
+      }
+    },
+    "11_closure": {
+      "groups": {
+        "closure-sequence": { "effect": "entrance_wipe", "effect_options": { "direction": "right" }, "trigger": "after-previous", "duration": 1.2 }
+      }
+    },
+    "12_diaspora": {
+      "groups": {
+        "routes": { "effect": "entrance_wipe", "effect_options": { "direction": "right" }, "trigger": "after-previous", "duration": 0.8 },
+        "destinations": { "effect": "entrance_fade", "trigger": "after-previous", "duration": 0.5 }
+      }
+    },
+    "13_closing": {
+      "transition": { "effect": "morph", "effect_options": { "morph_by": "object" }, "duration": 1.0 },
+      "morph": { "from": "12_diaspora", "pairs": { "motif-origin": { "from": "motif-origin", "to": "motif-origin" } } },
+      "groups": {
+        "closing-claim": { "effect": "entrance_fade", "trigger": "after-previous", "delay": 0.2, "duration": 0.6 }
+      }
+    }
+  }
+}

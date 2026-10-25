@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Segoe UI, sans-serif" data-pptx-page-role="content">
+  <defs>
+    <marker id="arrowCyan" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#8CC4EE"/>
+    </marker>
+  </defs>
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#0B1F3A"/>
+  <g id="sheet-grid" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#16305A" stroke-width="1">
+    <line x1="128" y1="20" x2="128" y2="700"/><line x1="256" y1="20" x2="256" y2="700"/><line x1="384" y1="20" x2="384" y2="700"/><line x1="512" y1="20" x2="512" y2="700"/><line x1="640" y1="20" x2="640" y2="700"/><line x1="768" y1="20" x2="768" y2="700"/><line x1="896" y1="20" x2="896" y2="700"/><line x1="1024" y1="20" x2="1024" y2="700"/><line x1="1152" y1="20" x2="1152" y2="700"/>
+    <line x1="20" y1="128" x2="1260" y2="128"/><line x1="20" y1="256" x2="1260" y2="256"/><line x1="20" y1="384" x2="1260" y2="384"/><line x1="20" y1="512" x2="1260" y2="512"/><line x1="20" y1="640" x2="1260" y2="640"/>
+    <rect x="20" y="20" width="1240" height="680" fill="none" stroke="#2D4C74"/>
+  </g>
+
+  <g id="header" data-pptx-bounds="64 44 1152 100">
+    <text x="64" y="78" font-size="15" letter-spacing="2" fill="#8CC4EE">05 · HOW IT WORKS — STORAGE PATH (LAYERS 06–08)</text>
+    <text x="64" y="126" font-family="Bahnschrift, sans-serif" font-size="40" fill="#EAF2FB">Down the stack: one file, many B-trees, fixed pages</text>
+  </g>
+
+  <g id="stack-rail" data-pptx-bounds="64 164 160 432">
+    <g fill="#11294B" stroke="#8CC4EE" stroke-width="1.5">
+      <rect x="64" y="168" width="160" height="46" rx="2"/>
+      <rect x="64" y="222" width="160" height="46" rx="2"/>
+      <rect x="64" y="276" width="160" height="46" rx="2"/>
+      <rect x="64" y="330" width="160" height="46" rx="2"/>
+      <rect x="64" y="384" width="160" height="46" rx="2"/>
+      <rect x="64" y="438" width="160" height="46" rx="2" stroke="#FFB547"/>
+      <rect x="64" y="492" width="160" height="46" rx="2" stroke="#FFB547"/>
+      <rect x="64" y="546" width="160" height="46" rx="2" stroke="#FFB547"/>
+    </g>
+    <g font-size="16" fill="#9FB6CF">
+      <text x="104" y="197">Interface</text>
+      <text x="104" y="251">Tokenizer</text>
+      <text x="104" y="305">Parser</text>
+      <text x="104" y="359">Code Gen</text>
+      <text x="104" y="413">VDBE</text>
+      <text x="104" y="467" fill="#EAF2FB">B-tree</text>
+      <text x="104" y="521" fill="#EAF2FB">Pager</text>
+      <text x="104" y="575" fill="#EAF2FB">VFS</text>
+    </g>
+    <g font-family="Consolas, monospace" font-size="15" fill="#8CC4EE">
+      <text x="74" y="197">01</text>
+      <text x="74" y="251">02</text>
+      <text x="74" y="305">03</text>
+      <text x="74" y="359">04</text>
+      <text x="74" y="413">05</text>
+      <text x="74" y="467" fill="#FFB547">06</text>
+      <text x="74" y="521" fill="#FFB547">07</text>
+      <text x="74" y="575" fill="#FFB547">08</text>
+    </g>
+  </g>
+
+  <g id="storage-chain" data-pptx-bounds="264 156 952 56" font-size="16" fill="#EAF2FB">
+    <text x="264" y="180"><tspan font-weight="bold" fill="#FFB547">B-tree</tspan> asks for page N</text>
+    <line x1="430" y1="174" x2="474" y2="174" stroke="#8CC4EE" stroke-width="1.5" marker-end="url(#arrowCyan)"/>
+    <text x="486" y="180"><tspan font-weight="bold" fill="#FFB547">Pager</tspan> caches pages, provides rollback,</text>
+    <text x="486" y="202">atomic commit, and file locking</text>
+    <line x1="826" y1="174" x2="870" y2="174" stroke="#8CC4EE" stroke-width="1.5" marker-end="url(#arrowCyan)"/>
+    <text x="882" y="180"><tspan font-weight="bold" fill="#FFB547">VFS</tspan> reads and writes the OS file</text>
+    <text x="882" y="202" font-family="Consolas, monospace" font-size="15" fill="#9FB6CF">os_unix.c · os_win.c</text>
+  </g>
+
+  <g id="page-anatomy" data-pptx-bounds="264 224 952 116">
+    <g font-size="13" fill="#9FB6CF" text-anchor="middle">
+      <text x="324" y="242">100 B · page 1 only</text>
+      <text x="439" y="242">8 or 12 B</text>
+      <text x="1180" y="242">usually 0 B</text>
+    </g>
+    <rect x="264" y="252" width="120" height="50" fill="#11294B" stroke="#8CC4EE" stroke-width="1.5"/>
+    <rect x="384" y="252" width="110" height="50" fill="#11294B" stroke="#FFB547" stroke-width="1.5"/>
+    <rect x="494" y="252" width="170" height="50" fill="#11294B" stroke="#8CC4EE" stroke-width="1.5"/>
+    <rect x="664" y="252" width="250" height="50" fill="none" stroke="#2D4C74" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <rect x="914" y="252" width="230" height="50" fill="#11294B" stroke="#8CC4EE" stroke-width="1.5"/>
+    <rect x="1144" y="252" width="72" height="50" fill="none" stroke="#8CC4EE" stroke-width="1.5"/>
+    <g font-size="16" fill="#EAF2FB" text-anchor="middle">
+      <text x="324" y="282">DB header</text>
+      <text x="439" y="282">page header</text>
+      <text x="579" y="282">cell pointers →</text>
+      <text x="789" y="282" fill="#9FB6CF">unallocated space</text>
+      <text x="1029" y="282">← cell content area</text>
+      <text x="1180" y="282">rsvd</text>
+    </g>
+    <text x="264" y="326" font-size="13" fill="#9FB6CF">One b-tree page, regions in file order (widths not to scale). Pointers grow forward, cells grow back.</text>
+  </g>
+
+  <g id="btree-kinds" data-pptx-bounds="264 356 472 268">
+    <text x="264" y="374" font-size="15" letter-spacing="2" fill="#9FB6CF">INTERIOR PAGE → CHILDREN</text>
+    <rect x="344" y="392" width="264" height="40" fill="#11294B" stroke="#8CC4EE" stroke-width="1.5" rx="2"/>
+    <g font-family="Consolas, monospace" font-size="15" fill="#EAF2FB" text-anchor="middle">
+      <text x="410" y="417">K1</text>
+      <text x="476" y="417">K2</text>
+      <text x="542" y="417">K3</text>
+    </g>
+    <g stroke="#2D4C74" stroke-width="1">
+      <line x1="443" y1="392" x2="443" y2="432"/><line x1="509" y1="392" x2="509" y2="432"/>
+    </g>
+    <g stroke="#8CC4EE" stroke-width="1.25">
+      <line x1="352" y1="432" x2="314" y2="474"/>
+      <line x1="443" y1="432" x2="424" y2="474"/>
+      <line x1="509" y1="432" x2="534" y2="474"/>
+      <line x1="600" y1="432" x2="644" y2="474"/>
+    </g>
+    <g fill="none" stroke="#8CC4EE" stroke-width="1.25">
+      <rect x="270" y="474" width="88" height="32" rx="2"/>
+      <rect x="380" y="474" width="88" height="32" rx="2"/>
+      <rect x="490" y="474" width="88" height="32" rx="2"/>
+      <rect x="600" y="474" width="88" height="32" rx="2"/>
+    </g>
+    <g font-size="13" fill="#9FB6CF" text-anchor="middle">
+      <text x="314" y="495">leaf</text><text x="424" y="495">leaf</text><text x="534" y="495">leaf</text><text x="644" y="495">leaf</text>
+    </g>
+    <text x="264" y="536" font-size="16" fill="#EAF2FB">An interior page holds <tspan font-weight="bold" fill="#FFB547">K keys and K+1 child pointers</tspan>.</text>
+    <text x="264" y="566" font-size="16" fill="#EAF2FB"><tspan font-weight="bold">Table b-tree</tspan> — 64-bit signed rowid key; data only in leaves</text>
+    <text x="264" y="592" font-size="16" fill="#EAF2FB"><tspan font-weight="bold">Index b-tree</tspan> — arbitrary key; no data stored</text>
+  </g>
+
+  <g id="file-facts" data-pptx-bounds="744 356 472 268" font-size="20" fill="#EAF2FB">
+    <text x="744" y="374" font-size="15" letter-spacing="2" fill="#9FB6CF">THE FILE, BY THE PAGE</text>
+    <line x1="744" y1="404" x2="756" y2="404" stroke="#FFB547" stroke-width="2"/>
+    <text x="766" y="410">Page size <tspan font-weight="bold" fill="#FFB547">4096 B</tspan> by default; any<tspan x="766" dy="26">power of two from 512 to 65 536</tspan></text>
+    <line x1="744" y1="470" x2="756" y2="470" stroke="#8CC4EE" stroke-width="2"/>
+    <text x="766" y="476">Every read and write is whole pages</text>
+    <line x1="744" y1="510" x2="756" y2="510" stroke="#8CC4EE" stroke-width="2"/>
+    <text x="766" y="516">One b-tree per table and per index;<tspan x="766" dy="26"><tspan font-family="Consolas, monospace" font-size="19" fill="#8CC4EE">sqlite_schema</tspan> is rooted at page 1</tspan></text>
+    <line x1="744" y1="576" x2="756" y2="576" stroke="#8CC4EE" stroke-width="2"/>
+    <text x="766" y="582">≈4.29e9 pages × 64 KiB ≈ 281 TB max<tspan x="766" dy="26" font-size="16" fill="#9FB6CF">file begins with <tspan font-family="Consolas, monospace" fill="#8CC4EE">"SQLite format 3"</tspan></tspan></text>
+  </g>
+
+  <g id="title-block" data-pptx-role="footer" data-pptx-bounds="840 650 376 38">
+    <rect x="840" y="654" width="376" height="30" fill="#11294B" stroke="#2D4C74"/>
+    <line x1="932" y1="654" x2="932" y2="684" stroke="#2D4C74"/>
+    <text x="852" y="674" font-family="Consolas, monospace" font-size="13" fill="#8CC4EE">SHT 06/12</text>
+    <text x="944" y="674" font-size="13" fill="#9FB6CF">Source: sqlite.org/arch, /fileformat2</text>
+  </g>
+</svg>

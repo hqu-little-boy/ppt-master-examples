@@ -1,0 +1,8 @@
+No,Filename,Width,Height,AspectRatio,PixelAspectRatio,SourceDisplayRatio,RatioSource,Format,HasTransparentPixels,UsageCount,DisplayRatioVariants,AssetKind,SvgRenderable,PptxNativeSupported,SizeKB,Category
+1,dessau_building.jpg,1920,1497,1.28,1.28,,native,JPEG,False,1,,bitmap,True,True,526.2,Standard landscape
+2,dessau_duotone.jpg,1800,1403,1.28,1.28,,native,JPEG,False,1,,bitmap,True,True,437.0,Standard landscape
+3,feininger_cathedral.jpg,1279,1920,0.67,0.67,,native,JPEG,False,1,,bitmap,True,True,481.4,Portrait
+4,mt8_lamp.jpg,1920,1702,1.13,1.13,,native,JPEG,False,1,,bitmap,True,True,358.7,Near square
+5,tel_aviv_white_city.jpg,1920,1440,1.33,1.33,,native,JPEG,False,1,,bitmap,True,True,301.7,Standard landscape
+6,wassily_chair.jpg,1920,1500,1.28,1.28,,native,JPEG,False,1,,bitmap,True,True,304.5,Standard landscape
+7,workshop_scene.jpg,1920,1072,1.79,1.79,,native,JPEG,False,1,,bitmap,True,True,480.1,Wide landscape

@@ -1,12 +1,191 @@
 {
   "version": 1,
-  "updated": "2026-09-24",
+  "updated": "2026-10-24",
   "stats": {
-    "examples": 70,
-    "pages": 987,
-    "templates": 70
+    "examples": 72,
+    "pages": 1012,
+    "templates": 72
   },
   "projects": [
+    {
+      "id": "ppt169_bauhaus_1919_1933",
+      "title": "包豪斯 1919–1933",
+      "description": "设计史专题 deck 13 页 — 一所学校如何成为现代设计的通用语法：1919 宣言、魏玛→德绍→柏林三地十四年甘特图、预备课程同心环、形式导师 + 工艺导师双导师工坊、教师阶梯索引、德绍校舍满版、MT8 台灯/B3 钢管椅/拜耳通用字体三件作品、1933 被迫关闭、师生流散路线；暖纸编辑排版风，包豪斯圆/方/三角作页面场与图片窗口，5 张 CC 授权 Wikimedia 照片含双色调派生与形状裁切，朱红圆印章与作品底形圆→方→三角共 4 处 Morph，纯题目 + 题目调研，Default 路线",
+      "icon": "🔺",
+      "color": "#C23B22",
+      "style": "design",
+      "styleName": "Design History Archive · Editorial",
+      "desc": "A thirteen-page Chinese design-history deck on the Bauhaus from 1919 to 1933, generated from a bare topic with topic research (thirty cited facts, conflicting sources noted). It opens with Gropius's manifesto line that the ultimate aim of all creative activity is the building, then sets the school's fourteen years on a Gantt chart scaled to real years across Weimar, Dessau and Berlin and its three directors. The method is drawn natively: the preliminary course as concentric rings leading to building, the form master and craft master pairing in the workshops, and a year ruler indexing the masters as they joined. Three objects get their own pages, the MT8 table lamp, Breuer's B3 tubular-steel chair and Bayer's universal alphabet, before a dark page on the forced closure in 1933 and a map of where its people went. Custom editorial archive style: warm paper, fine rules, Arial Black year numerals and a single vermilion focus; the Bauhaus circle, square and triangle appear as page fields and picture windows rather than decoration. Five CC-licensed Wikimedia photographs are credited inline, including the Dessau building as a full-bleed page and as an ink-and-paper duotone in the cover window; one AI workshop scene is labelled as not a historical photograph. Four Morph transitions: the cover circle shrinks into the manifesto seal, the object pedestal turns from circle to square to triangle across the three object pages, and the diaspora origin grows into the closing circle. Default runtime with free design, custom entrances and speaker notes.",
+      "tags": [
+        "Design History",
+        "Chinese",
+        "Editorial",
+        "Architecture",
+        "Topic Research",
+        "CC Photos",
+        "Photo Treatment",
+        "Morph"
+      ],
+      "isNew": true,
+      "folder": "ppt169_bauhaus_1919_1933/svg_final",
+      "generatedAt": "2026-10-24",
+      "cover": "01_cover.svg",
+      "pptx": "examples/ppt169_bauhaus_1919_1933/exports/ppt169_bauhaus_1919_1933.pptx",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "cover",
+          "desc": "封面：包豪斯 1919–1933，一所学校如何成为现代设计的通用语法"
+        },
+        {
+          "file": "02_manifesto.svg",
+          "title": "manifesto",
+          "desc": "一切从一句话开始：1919 宣言"
+        },
+        {
+          "file": "03_timeline.svg",
+          "title": "timeline",
+          "desc": "三座城市，十四年"
+        },
+        {
+          "file": "04_vorkurs.svg",
+          "title": "vorkurs",
+          "desc": "先上同一门基础课：预备课程"
+        },
+        {
+          "file": "05_workshops.svg",
+          "title": "workshops",
+          "desc": "一个工坊，两位导师"
+        },
+        {
+          "file": "06_people.svg",
+          "title": "people",
+          "desc": "谁在这里教书"
+        },
+        {
+          "file": "07_dessau_building.svg",
+          "title": "dessau building",
+          "desc": "校舍本身就是宣言：德绍校舍"
+        },
+        {
+          "file": "08_mt8_lamp.svg",
+          "title": "mt8 lamp",
+          "desc": "一盏灯里的圆、柱、球：MT8 台灯"
+        },
+        {
+          "file": "09_b3_chair.svg",
+          "title": "b3 chair",
+          "desc": "从自行车到椅子：B3 钢管椅"
+        },
+        {
+          "file": "10_universal_type.svg",
+          "title": "universal type",
+          "desc": "只用小写字母：拜耳通用字体"
+        },
+        {
+          "file": "11_closure.svg",
+          "title": "closure",
+          "desc": "1933：被迫落幕"
+        },
+        {
+          "file": "12_diaspora.svg",
+          "title": "diaspora",
+          "desc": "关门之后，方法出发"
+        },
+        {
+          "file": "13_closing.svg",
+          "title": "closing",
+          "desc": "结语：留下的是方法，不是风格"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_sqlite_everywhere",
+      "title": "Why SQLite Is Everywhere",
+      "description": "英文技术分享 deck 12 页 — 讲 SQLite 为什么无处不在：>1e12 个活跃数据库的算式、进程内无服务器架构、八层架构栈、SQL 编译路径与存储路径、B-tree 页结构、回滚日志 vs WAL、WAL 并发与检查点、测试代码是库的 590 倍、公有领域许可、官方三问选型清单；深蓝图纸工程蓝图风格，AI 等轴爆炸蓝图封面并派生压暗版结尾，八层架构栏 Morph 链贯穿三页、WAL 文件条 Morph 放大，事实全部来自 8 个 sqlite.org 官方页面并逐页标出处，Default 路线",
+      "icon": "🗄️",
+      "color": "#0B1F3A",
+      "style": "technology",
+      "styleName": "Drafting Sheet · Engineering Blueprint",
+      "desc": "A twelve-page English engineering talk on why SQLite is the most widely deployed database engine, built only from eight official sqlite.org pages fetched with source_to_md.py and cited in a drawing-sheet title block on every page. It opens with the arithmetic behind the claim (over four billion smartphones times hundreds of database files each) and the in-process, zero-configuration design, then walks the eight-layer architecture from interface to OS layer: a Morph chain shrinks the full layer stack into a rail that highlights the compile path (tokenizer, parser, code generator, VDBE) and then the storage path (B-tree, pager, VFS), where the page header, cell pointers and interior/leaf structure are drawn natively. Rollback journal and write-ahead log are compared side by side, and a second Morph enlarges the WAL file into a frame timeline to show readers and the single writer coexisting until a checkpoint. The trust section sets the 590x test-to-library ratio as two strictly proportional squares beside the test harness table, quotes the public-domain dedication, and closes with the official three-question checklist for choosing SQLite. Custom Drafting Sheet style: navy paper with a faint grid, pale-cyan single-weight line work and one amber accent per page; an AI isometric exploded-file illustration on the cover returns dimmed and blurred on the closing page. Default runtime with free design, custom entrances and speaker notes on every page.",
+      "tags": [
+        "Technical",
+        "Technical Deep Dive",
+        "English",
+        "Blueprint",
+        "Web",
+        "Structure Diagrams",
+        "AI Illustration",
+        "Morph"
+      ],
+      "isNew": true,
+      "folder": "ppt169_sqlite_everywhere/svg_final",
+      "generatedAt": "2026-10-24",
+      "cover": "01_cover.svg",
+      "pptx": "examples/ppt169_sqlite_everywhere/exports/ppt169_sqlite_everywhere.pptx",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "cover",
+          "desc": "封面：SQLite 为什么无处不在——它替代的是 fopen()"
+        },
+        {
+          "file": "02_most_deployed.svg",
+          "title": "most deployed",
+          "desc": "部署量很可能超过其他所有引擎之和：>1e12 的算式"
+        },
+        {
+          "file": "03_serverless.svg",
+          "title": "serverless",
+          "desc": "没有服务器：库本身就是数据库引擎"
+        },
+        {
+          "file": "04_layer_stack.svg",
+          "title": "layer stack",
+          "desc": "八层架构：把 SQL 编译成字节码，再在虚拟机里执行"
+        },
+        {
+          "file": "05_compile_path.svg",
+          "title": "compile path",
+          "desc": "编译路径：从 SQL 文本到字节码程序"
+        },
+        {
+          "file": "06_storage_path.svg",
+          "title": "storage path",
+          "desc": "存储路径：一个文件、多棵 B-tree、定长页"
+        },
+        {
+          "file": "07_journal_vs_wal.svg",
+          "title": "journal vs wal",
+          "desc": "原子提交的两种机制：回滚日志 vs 预写日志"
+        },
+        {
+          "file": "08_wal_concurrency.svg",
+          "title": "wal concurrency",
+          "desc": "WAL 模式：读者永不阻塞写者"
+        },
+        {
+          "file": "09_testing_culture.svg",
+          "title": "testing culture",
+          "desc": "测试代码是库本身的 590 倍"
+        },
+        {
+          "file": "10_public_domain.svg",
+          "title": "public domain",
+          "desc": "不用遵守许可：它是公有领域"
+        },
+        {
+          "file": "11_when_to_use.svg",
+          "title": "when to use",
+          "desc": "选 SQLite 之前先问三个问题"
+        },
+        {
+          "file": "12_closing.svg",
+          "title": "closing",
+          "desc": "收尾：小、快、可靠，三者兼得"
+        }
+      ]
+    },
     {
       "id": "ppt169_goldberg_variations",
       "title": "哥德堡变奏曲:一座对称的建筑",

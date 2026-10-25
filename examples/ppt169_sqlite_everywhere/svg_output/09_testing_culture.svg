@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Segoe UI, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#0B1F3A"/>
+  <g id="sheet-grid" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#16305A" stroke-width="1">
+    <line x1="128" y1="20" x2="128" y2="700"/><line x1="256" y1="20" x2="256" y2="700"/><line x1="384" y1="20" x2="384" y2="700"/><line x1="512" y1="20" x2="512" y2="700"/><line x1="640" y1="20" x2="640" y2="700"/><line x1="768" y1="20" x2="768" y2="700"/><line x1="896" y1="20" x2="896" y2="700"/><line x1="1024" y1="20" x2="1024" y2="700"/><line x1="1152" y1="20" x2="1152" y2="700"/>
+    <line x1="20" y1="128" x2="1260" y2="128"/><line x1="20" y1="256" x2="1260" y2="256"/><line x1="20" y1="384" x2="1260" y2="384"/><line x1="20" y1="512" x2="1260" y2="512"/><line x1="20" y1="640" x2="1260" y2="640"/>
+    <rect x="20" y="20" width="1240" height="680" fill="none" stroke="#2D4C74"/>
+  </g>
+
+  <g id="header" data-pptx-bounds="64 44 1152 100">
+    <text x="64" y="78" font-size="15" letter-spacing="2" fill="#8CC4EE">08 · WHY YOU CAN TRUST IT — TESTING</text>
+    <text x="64" y="126" font-family="Bahnschrift, sans-serif" font-size="40" fill="#EAF2FB">The test code is 590 times larger than the library</text>
+  </g>
+
+  <g id="ratio-hero" data-pptx-bounds="56 164 424 424">
+    <text x="64" y="186" font-size="15" letter-spacing="2" fill="#9FB6CF">TEST CODE VS. LIBRARY CODE</text>
+    <text x="58" y="300" font-family="Bahnschrift, sans-serif" font-size="112" font-weight="bold" fill="#FFB547">590×</text>
+    <rect x="64" y="340" width="200" height="200" fill="#5ED3C4" fill-opacity="0.12" stroke="#5ED3C4" stroke-width="1.5"/>
+    <rect x="272" y="531.77" width="8.23" height="8.23" fill="#FFB547"/>
+    <text x="300" y="362" font-size="16" fill="#9FB6CF">tests and test scripts</text>
+    <text x="300" y="388" font-size="20" font-weight="bold" fill="#5ED3C4">92,053.1 KSLOC</text>
+    <text x="300" y="514" font-size="16" fill="#9FB6CF">the library itself</text>
+    <text x="300" y="540" font-size="20" font-weight="bold" fill="#FFB547">155.8 KSLOC</text>
+    <text x="64" y="574" font-size="13" fill="#9FB6CF">Square areas drawn to scale · SQLite 3.42.0 (2023-05-16)</text>
+  </g>
+
+  <g id="harness-table" data-pptx-replace-with="table" data-pptx-bounds="512 200 704 344" data-pptx-fallback-sha256="69367057aa20e81cab0bbd464c00af5ee03ebf11a0933e4eb8faf2af8c49ce7b">
+    <metadata type="application/json">{"schema":"ppt-master.semantic-table.v2","name":"harness-table","x":512,"y":200,"width":704,"height":344,"column_widths":[130,190,150,234],"row_heights":[40,76,76,76,76],"style":{"font_family":"Segoe UI","font_size":16,"header_font_size":15,"header_fill":"#11294B","header_text":"#8CC4EE","body_text":"#EAF2FB","band_row":false,"valign":"top","padding":12},"defaults":{"cell":{"align":"l","borders":{"left":{"style":"none"},"right":{"style":"none"},"top":{"style":"none"},"bottom":{"style":"solid","color":"#2D4C74","width":1}}}},"cell_styles":{"head":{"bold":true,"valign":"middle","borders":{"left":{"style":"none"},"right":{"style":"none"},"top":{"style":"none"},"bottom":{"style":"solid","color":"#8CC4EE","width":1.5}}},"first":{"bold":true}},"columns":[{"text":"HARNESS","cell_style":"head"},{"text":"SCALE","cell_style":"head"},{"text":"TEST CASES","cell_style":"head"},{"text":"GUARANTEE","cell_style":"head"}],"rows":[[{"text":"TCL tests","cell_style":"first"},"1,390 script files, 23.2 MB","51,445 distinct; millions of runs","Primary suite during development"],[{"text":"TH3","cell_style":"first"},"1,055.4 KSLOC of C; proprietary","50,362 distinct; ~2.4 M instances",{"text":"100% branch + 100% MC/DC coverage of the core","bold":true,"color":"#FFB547"}],[{"text":"SQL Logic Test","cell_style":"first"},"1.12 GB of test data","7.2 M queries","Same answers as PostgreSQL, MySQL, SQL Server, Oracle 10g"],[{"text":"dbsqlfuzz","cell_style":"first"},"336 seed files; proprietary","~1 billion mutations a day","Mutates SQL and the database file together"]]}</metadata>
+    <rect x="512" y="200" width="704" height="40" fill="#11294B"/>
+    <line x1="512" y1="240" x2="1216" y2="240" stroke="#8CC4EE" stroke-width="1.5"/>
+    <g stroke="#2D4C74" stroke-width="1">
+      <line x1="512" y1="316" x2="1216" y2="316"/>
+      <line x1="512" y1="392" x2="1216" y2="392"/>
+      <line x1="512" y1="468" x2="1216" y2="468"/>
+      <line x1="512" y1="544" x2="1216" y2="544"/>
+    </g>
+    <g font-size="15" font-weight="bold" fill="#8CC4EE">
+      <text x="524" y="225">HARNESS</text>
+      <text x="654" y="225">SCALE</text>
+      <text x="844" y="225">TEST CASES</text>
+      <text x="994" y="225">GUARANTEE</text>
+    </g>
+    <g font-size="16" fill="#EAF2FB">
+      <text x="524" y="268" font-weight="bold">TCL tests</text>
+      <text x="654" y="268">1,390 script files, <tspan x="654" dy="20">23.2 MB</tspan></text>
+      <text x="844" y="268">51,445 distinct; <tspan x="844" dy="20">millions of runs</tspan></text>
+      <text x="994" y="268">Primary suite during <tspan x="994" dy="20">development</tspan></text>
+
+      <text x="524" y="344" font-weight="bold">TH3</text>
+      <text x="654" y="344">1,055.4 KSLOC of C; <tspan x="654" dy="20">proprietary</tspan></text>
+      <text x="844" y="344">50,362 distinct; <tspan x="844" dy="20">~2.4 M instances</tspan></text>
+      <text x="994" y="344" font-weight="bold" fill="#FFB547">100% branch + 100% <tspan x="994" dy="20">MC/DC coverage of the core</tspan></text>
+
+      <text x="524" y="420" font-weight="bold">SQL Logic <tspan x="524" dy="20">Test</tspan></text>
+      <text x="654" y="420">1.12 GB of test data</text>
+      <text x="844" y="420">7.2 M queries</text>
+      <text x="994" y="420">Same answers as <tspan x="994" dy="20">PostgreSQL, MySQL, </tspan><tspan x="994" dy="20">SQL Server, Oracle 10g</tspan></text>
+
+      <text x="524" y="496" font-weight="bold">dbsqlfuzz</text>
+      <text x="654" y="496">336 seed files; <tspan x="654" dy="20">proprietary</tspan></text>
+      <text x="844" y="496">~1 billion <tspan x="844" dy="20">mutations a day</tspan></text>
+      <text x="994" y="496">Mutates SQL and the <tspan x="994" dy="20">database file together</tspan></text>
+    </g>
+  </g>
+
+  <g id="test-extras" data-pptx-bounds="512 556 704 76">
+    <use data-icon="tabler-outline/test-pipe" x="512" y="562" width="24" height="24" fill="#8CC4EE" stroke-width="1.5"/>
+    <text x="546" y="580" font-size="16" fill="#9FB6CF">Also: out-of-memory, I/O-error, crash and power-loss tests. A pre-release<tspan x="546" dy="22">TH3 soak runs about <tspan font-weight="bold" fill="#EAF2FB">248.5 million tests</tspan>.</tspan></text>
+  </g>
+
+  <g id="title-block" data-pptx-role="footer" data-pptx-bounds="880 650 336 38">
+    <rect x="880" y="654" width="336" height="30" fill="#11294B" stroke="#2D4C74"/>
+    <line x1="972" y1="654" x2="972" y2="684" stroke="#2D4C74"/>
+    <text x="892" y="674" font-family="Consolas, monospace" font-size="13" fill="#8CC4EE">SHT 09/12</text>
+    <text x="984" y="674" font-size="13" fill="#9FB6CF">Source: sqlite.org/testing</text>
+  </g>
+</svg>

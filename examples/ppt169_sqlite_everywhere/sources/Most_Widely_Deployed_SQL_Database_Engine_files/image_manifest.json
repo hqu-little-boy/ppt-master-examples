@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "filename": "sqlite370_banner.svg",
+    "original_filename": "sqlite370_banner.svg",
+    "asset_kind": "bitmap",
+    "svg_renderable": true,
+    "pptx_native_supported": true,
+    "source_kind": "web_image",
+    "source_url": "https://www.sqlite.org/images/sqlite370_banner.svg",
+    "source_page_url": "https://www.sqlite.org/mostdeployed.html",
+    "content_type": "image/svg+xml",
+    "occurrences": [
+      {
+        "occurrence_index": 1,
+        "source_url": "https://www.sqlite.org/images/sqlite370_banner.svg",
+        "alt_text": "SQLite"
+      }
+    ],
+    "usage_count": 1
+  }
+]

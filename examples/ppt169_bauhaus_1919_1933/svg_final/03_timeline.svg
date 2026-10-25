@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F2EEE5"/>
+
+  <g id="header" data-pptx-bounds="64 70 1152 136">
+    <text x="64" y="96" font-size="15" fill="#6B665C" letter-spacing="2">02 · 时间线 · WEIMAR — DESSAU — BERLIN</text>
+    <text x="64" y="150" font-size="40" font-weight="bold" fill="#161616">三座城市，十四年</text>
+    <text x="64" y="194" font-size="26" fill="#1E1E1C">每一次搬迁都伴随着政治压力；校长的更替与城市的更替并不同步。</text>
+  </g>
+
+  <g id="phases-timeline" data-pptx-bounds="64 228 1152 228">
+    <g id="phases-timeline-chartArea">
+      <g id="phases-timeline-axis" font-size="16" fill="#6B665C" text-anchor="middle">
+        <line x1="176" y1="270" x2="1184" y2="270" stroke="#161616" stroke-width="2"/>
+        <text x="176" y="256">1919</text>
+        <text x="248" y="256">1920</text>
+        <text x="320" y="256">1921</text>
+        <text x="392" y="256">1922</text>
+        <text x="464" y="256">1923</text>
+        <text x="536" y="256">1924</text>
+        <text x="608" y="256">1925</text>
+        <text x="680" y="256">1926</text>
+        <text x="752" y="256">1927</text>
+        <text x="824" y="256">1928</text>
+        <text x="896" y="256">1929</text>
+        <text x="968" y="256">1930</text>
+        <text x="1040" y="256">1931</text>
+        <text x="1112" y="256">1932</text>
+        <text x="1184" y="256">1933</text>
+      </g>
+      <!-- chart-plot-area: object=phases-timeline | 176,280,1184,452 -->
+      <g id="phases-timeline-rows" font-size="16" font-weight="bold" fill="#161616">
+        <text x="64" y="326">城市</text>
+        <text x="64" y="432">校长</text>
+      </g>
+      <g id="phases-timeline-cities">
+        <rect x="176" y="290" width="430" height="60" fill="#161616"/>
+        <circle cx="200" cy="320" r="8" fill="#F2EEE5"/>
+        <text x="218" y="328" font-size="22" font-weight="bold" fill="#F2EEE5">魏玛 1919–1925</text>
+        <rect x="610" y="290" width="500" height="60" fill="#161616"/>
+        <rect x="626" y="312" width="16" height="16" fill="#F2EEE5"/>
+        <text x="652" y="328" font-size="22" font-weight="bold" fill="#F2EEE5">德绍 1925–1932</text>
+        <rect x="1114" y="290" width="70" height="60" fill="#C23B22"/>
+        <text x="1149" y="328" font-size="22" font-weight="bold" fill="#F2EEE5" text-anchor="middle">柏林</text>
+      </g>
+      <g id="phases-timeline-directors">
+        <rect x="176" y="400" width="646" height="52" fill="#E4DDCF"/>
+        <text x="196" y="434" font-size="22" fill="#161616"><tspan font-weight="bold">格罗皮乌斯</tspan> 1919–1928</text>
+        <rect x="826" y="400" width="140" height="52" fill="#E4DDCF"/>
+        <text x="896" y="424" font-size="22" font-weight="bold" fill="#161616" text-anchor="middle">迈耶</text>
+        <text x="896" y="445" font-size="16" fill="#161616" text-anchor="middle">1928–1930</text>
+        <rect x="970" y="400" width="214" height="52" fill="#E4DDCF"/>
+        <text x="1077" y="434" font-size="22" fill="#161616" text-anchor="middle"><tspan font-weight="bold">密斯</tspan> 1930–1933</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="events" data-pptx-bounds="64 458 1152 160">
+    <g stroke="#BDB5A6" stroke-width="1" stroke-dasharray="4,4">
+      <line x1="608" y1="462" x2="608" y2="548"/>
+      <line x1="968" y1="462" x2="968" y2="588"/>
+      <line x1="1112" y1="462" x2="1112" y2="548"/>
+    </g>
+    <text x="620" y="566" font-size="16" fill="#1E1E1C"><tspan font-weight="bold">1925</tspan> · 地方政治变化，迁往德绍</text>
+    <text x="956" y="606" font-size="16" fill="#1E1E1C" text-anchor="end"><tspan font-weight="bold">1930</tspan> · 迈耶被德绍市长解聘</text>
+    <text x="1184" y="566" font-size="16" fill="#1E1E1C" text-anchor="end"><tspan font-weight="bold" fill="#C23B22">1932</tspan> · 纳粹党接管安哈尔特州，德绍关闭</text>
+  </g>
+
+  <g id="sources" data-pptx-bounds="64 668 700 28">
+    <text x="64" y="688" font-size="13" fill="#6B665C">来源：Wikipedia「Bauhaus」「包豪斯」「Ludwig Mies van der Rohe」 · 年份按整年刻度绘制</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="960 668 256 28">
+    <text x="1216" y="688" font-size="13" fill="#6B665C" text-anchor="end">包豪斯 1919–1933 · 03</text>
+  </g>
+</svg>

@@ -1,0 +1,207 @@
+{
+  "items": [
+    {
+      "filename": "dessau_building.jpg",
+      "slide": "07_dessau_building",
+      "purpose": "full-bleed exterior of the Dessau Bauhaus building",
+      "search_query": "Bauhaus Dessau building",
+      "matched_query": "Bauhaus Dessau building",
+      "orientation": "landscape",
+      "provider": "wikimedia",
+      "stage": "all",
+      "title": "Außenansichten des Bauhaus-Gebäudes in Dessau 01.jpg",
+      "author": "JensKunstfreund",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Au%C3%9Fenansichten_des_Bauhaus-Geb%C3%A4udes_in_Dessau_01.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Au%C3%9Fenansichten_des_Bauhaus-Geb%C3%A4udes_in_Dessau_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license_name": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_tier": "attribution-required",
+      "attribution_required": true,
+      "width": 3827,
+      "height": 2983,
+      "attribution_text": "dessau_building.jpg — \"Außenansichten des Bauhaus-Gebäudes in Dessau 01.jpg\" by JensKunstfreund via Wikimedia Commons — license: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "selection_method": "visual-thumbnail",
+      "status": "promoted",
+      "required_terms": [
+        "Bauhaus",
+        "Dessau"
+      ],
+      "query_variants": [
+        "Bauhausgebäude Dessau",
+        "Bauhaus Dessau Gropius"
+      ]
+    },
+    {
+      "filename": "mt8_lamp.jpg",
+      "slide": "08_mt8_lamp",
+      "purpose": "Wagenfeld MT8 table lamp object photo",
+      "search_query": "Wagenfeld lamp",
+      "matched_query": "Wagenfeld lamp",
+      "orientation": "square",
+      "provider": "wikimedia",
+      "stage": "all",
+      "title": "Tischlampe di Carl Jakob Jucker (left, 1923-24) e di Wilhelm Wagenfeld (right, 1924).JPG",
+      "author": "sailko",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Tischlampe_di_Carl_Jakob_Jucker_(left,_1923-24)_e_di_Wilhelm_Wagenfeld_(right,_1924).JPG",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Tischlampe_di_Carl_Jakob_Jucker_%28left%2C_1923-24%29_e_di_Wilhelm_Wagenfeld_%28right%2C_1924%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license_name": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_tier": "attribution-required",
+      "attribution_required": true,
+      "width": 2152,
+      "height": 1908,
+      "attribution_text": "mt8_lamp.jpg — \"Tischlampe di Carl Jakob Jucker (left, 1923-24) e di Wilhelm Wagenfeld (right, 1924).JPG\" by sailko via Wikimedia Commons — license: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+      "selection_method": "visual-thumbnail",
+      "status": "promoted",
+      "required_terms": [
+        "Wagenfeld"
+      ],
+      "query_variants": [
+        "Wagenfeld Leuchte WG24",
+        "Bauhaus lamp Wagenfeld Jucker"
+      ]
+    },
+    {
+      "filename": "wassily_chair.jpg",
+      "slide": "09_b3_chair",
+      "purpose": "Breuer B3 Wassily chair object photo",
+      "search_query": "Wassily Chair Breuer",
+      "matched_query": "Marcel Breuer B3 chair",
+      "orientation": "square",
+      "provider": "wikimedia",
+      "stage": "all",
+      "title": "B3 chair - Marcel Breuer (27986822589).jpg",
+      "author": "Tim Evanson from Cleveland Heights, Ohio, USA",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:B3_chair_-_Marcel_Breuer_(27986822589).jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/B3_chair_-_Marcel_Breuer_%2827986822589%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license_name": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_tier": "attribution-required",
+      "attribution_required": true,
+      "width": 2500,
+      "height": 1953,
+      "attribution_text": "wassily_chair.jpg — \"B3 chair - Marcel Breuer (27986822589).jpg\" by Tim Evanson from Cleveland Heights, Ohio, USA via Wikimedia Commons — license: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)",
+      "selection_method": "visual-thumbnail",
+      "status": "promoted",
+      "required_terms": [
+        "Wassily|Breuer|B3"
+      ],
+      "query_variants": [
+        "Marcel Breuer B3 chair",
+        "Wassily Chair"
+      ]
+    },
+    {
+      "filename": "tel_aviv_white_city.jpg",
+      "slide": "12_diaspora",
+      "purpose": "Bauhaus/International Style building in Tel Aviv White City",
+      "search_query": "White City Tel Aviv Bauhaus building",
+      "matched_query": "White City Tel Aviv",
+      "orientation": "landscape",
+      "provider": "wikimedia",
+      "stage": "all",
+      "title": "PikiWiki Israel 9168 White City of Tel Aviv.JPG",
+      "author": "Lior Golgher • ליאור גולגר",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_9168_White_City_of_Tel_Aviv.JPG",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/PikiWiki_Israel_9168_White_City_of_Tel_Aviv.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license_name": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "license_tier": "attribution-required",
+      "attribution_required": true,
+      "width": 3264,
+      "height": 2448,
+      "attribution_text": "tel_aviv_white_city.jpg — \"PikiWiki Israel 9168 White City of Tel Aviv.JPG\" by Lior Golgher • ליאור גולגר via Wikimedia Commons — license: CC BY 2.5 (https://creativecommons.org/licenses/by/2.5)",
+      "selection_method": "visual-thumbnail",
+      "status": "promoted",
+      "required_terms": [
+        "Tel Aviv",
+        "Bauhaus|White City"
+      ],
+      "query_variants": [
+        "Tel Aviv Bauhaus architecture",
+        "White City Tel Aviv"
+      ]
+    },
+    {
+      "filename": "feininger_cathedral.jpg",
+      "slide": "02_manifesto",
+      "purpose": "Feininger Cathedral woodcut, manifesto cover",
+      "search_query": "Lyonel Feininger Kathedrale",
+      "matched_query": "Lyonel Feininger Kathedrale",
+      "orientation": "portrait",
+      "provider": "openverse",
+      "stage": "all",
+      "title": "Lyonel feininger, manifesto bauhaus, xilografia, 1919",
+      "author": "Francesco Bini",
+      "source_page_url": "https://commons.wikimedia.org/w/index.php?curid=183111624",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Lyonel_feininger%2C_manifesto_bauhaus%2C_xilografia%2C_1919.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license_name": "by-sa",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_tier": "attribution-required",
+      "attribution_required": true,
+      "width": 3272,
+      "height": 4912,
+      "attribution_text": "feininger_cathedral.jpg — \"Lyonel feininger, manifesto bauhaus, xilografia, 1919\" by Francesco Bini via Openverse — license: by-sa (https://creativecommons.org/licenses/by-sa/4.0/)",
+      "selection_method": "visual-thumbnail",
+      "status": "promoted",
+      "required_terms": [
+        "Feininger|Bauhaus|Manifest|Programm"
+      ],
+      "query_variants": [
+        "Bauhaus Manifest Programm 1919",
+        "Feininger woodcut cathedral",
+        "Programm des Staatlichen Bauhauses Weimar"
+      ]
+    },
+    {
+      "filename": "dessau_duotone.jpg",
+      "slide": "07_dessau_building",
+      "purpose": "full-bleed exterior of the Dessau Bauhaus building",
+      "search_query": "Bauhaus Dessau building",
+      "matched_query": "Bauhaus Dessau building",
+      "orientation": "landscape",
+      "provider": "wikimedia",
+      "stage": "all",
+      "title": "Außenansichten des Bauhaus-Gebäudes in Dessau 01.jpg",
+      "author": "JensKunstfreund",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Au%C3%9Fenansichten_des_Bauhaus-Geb%C3%A4udes_in_Dessau_01.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Au%C3%9Fenansichten_des_Bauhaus-Geb%C3%A4udes_in_Dessau_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license_name": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_tier": "attribution-required",
+      "attribution_required": true,
+      "width": 1800,
+      "height": 1403,
+      "attribution_text": "dessau_duotone.jpg — \"Außenansichten des Bauhaus-Gebäudes in Dessau 01.jpg\" by JensKunstfreund via Wikimedia Commons — license: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)",
+      "selection_method": "visual-thumbnail",
+      "status": "promoted",
+      "required_terms": [
+        "Bauhaus",
+        "Dessau"
+      ],
+      "query_variants": [
+        "Bauhausgebäude Dessau",
+        "Bauhaus Dessau Gropius"
+      ],
+      "derived_from": "dessau_building.jpg",
+      "treatments": [
+        {
+          "operation": "contrast",
+          "factor": 1.15
+        },
+        {
+          "operation": "duotone",
+          "shadow": "#161616",
+          "highlight": "#F2EEE5"
+        },
+        {
+          "operation": "fit",
+          "width": 1800,
+          "height": 1800
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-10-24T07:48:02.339441Z",
+  "license_verification": "provider metadata used; manual review recommended for external delivery"
+}

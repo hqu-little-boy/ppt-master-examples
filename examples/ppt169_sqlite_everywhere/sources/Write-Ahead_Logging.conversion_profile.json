@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "web_to_md.py",
+  "conversion_type": "web",
+  "source": {
+    "path": "https://www.sqlite.org/wal.html",
+    "name": "https://www.sqlite.org/wal.html",
+    "suffix": "",
+    "kind": "url",
+    "exists": false,
+    "size_bytes": null
+  },
+  "outputs": {
+    "markdown": "Write-Ahead_Logging.md",
+    "asset_dir": "",
+    "image_manifest": "",
+    "image_count": 0
+  },
+  "markdown": {
+    "line_count": 251,
+    "char_count": 36120,
+    "heading_count": 20,
+    "table_count": 0,
+    "image_ref_count": 0,
+    "link_count": 98
+  },
+  "warnings": []
+}

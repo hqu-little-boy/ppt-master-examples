@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Segoe UI, sans-serif" data-pptx-page-role="content">
+  <defs>
+    <marker id="arrowCyan" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#8CC4EE"/>
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#FFB547"/>
+    </marker>
+  </defs>
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#0B1F3A"/>
+  <g id="sheet-grid" data-pptx-role="decoration" data-pptx-bounds="20 20 1240 680" stroke="#16305A" stroke-width="1">
+    <line x1="128" y1="20" x2="128" y2="700"/><line x1="256" y1="20" x2="256" y2="700"/><line x1="384" y1="20" x2="384" y2="700"/><line x1="512" y1="20" x2="512" y2="700"/><line x1="640" y1="20" x2="640" y2="700"/><line x1="768" y1="20" x2="768" y2="700"/><line x1="896" y1="20" x2="896" y2="700"/><line x1="1024" y1="20" x2="1024" y2="700"/><line x1="1152" y1="20" x2="1152" y2="700"/>
+    <line x1="20" y1="128" x2="1260" y2="128"/><line x1="20" y1="256" x2="1260" y2="256"/><line x1="20" y1="384" x2="1260" y2="384"/><line x1="20" y1="512" x2="1260" y2="512"/><line x1="20" y1="640" x2="1260" y2="640"/>
+    <rect x="20" y="20" width="1240" height="680" fill="none" stroke="#2D4C74"/>
+  </g>
+
+  <g id="header" data-pptx-bounds="64 44 1152 100">
+    <text x="64" y="78" font-size="15" letter-spacing="2" fill="#8CC4EE">02 · SERVERLESS BY DESIGN</text>
+    <text x="64" y="126" font-family="Bahnschrift, sans-serif" font-size="40" fill="#EAF2FB">No server: the library is the database engine</text>
+  </g>
+
+  <g id="lane-client-server" data-pptx-bounds="64 160 504 476">
+    <text x="96" y="182" font-size="15" letter-spacing="2" fill="#9FB6CF">CLIENT/SERVER ENGINE</text>
+    <rect x="96" y="200" width="200" height="56" fill="none" stroke="#8CC4EE" stroke-width="1.5" rx="2"/>
+    <use data-icon="tabler-outline/code" x="112" y="216" width="24" height="24" fill="#8CC4EE" stroke-width="1.5"/>
+    <text x="146" y="235" font-size="22" fill="#EAF2FB">application</text>
+    <line x1="196" y1="256" x2="196" y2="318" stroke="#8CC4EE" stroke-width="1.5" stroke-dasharray="8,4" marker-end="url(#arrowCyan)"/>
+    <use data-icon="tabler-outline/network" x="212" y="272" width="24" height="24" fill="#9FB6CF" stroke-width="1.5"/>
+    <text x="244" y="291" font-size="16" fill="#9FB6CF">SQL over the network</text>
+    <rect x="96" y="324" width="200" height="56" fill="none" stroke="#8CC4EE" stroke-width="1.5" rx="2"/>
+    <use data-icon="tabler-outline/server" x="112" y="340" width="24" height="24" fill="#8CC4EE" stroke-width="1.5"/>
+    <text x="146" y="359" font-size="22" fill="#EAF2FB">server process</text>
+    <line x1="196" y1="380" x2="196" y2="446" stroke="#8CC4EE" stroke-width="1.5" marker-end="url(#arrowCyan)"/>
+    <g id="p03-cs-disk" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="flowChartMagneticDisk" data-pptx-frame="116 452 160 84" fill="none" stroke="#8CC4EE" stroke-width="1.5">
+<path d="M 116 466 A 80 14 0 0 1 276 466 L 276 522 A 80 14 0 0 1 116 522 Z" stroke="none"/>
+<path d="M 276 466 A 80 14 0 0 1 116 466"/>
+<path d="M 116 466 A 80 14 0 0 1 276 466 L 276 522 A 80 14 0 0 1 116 522 Z"/>
+</g>
+    <text x="196" y="508" font-size="16" fill="#EAF2FB" text-anchor="middle">its data files</text>
+    <text x="96" y="580" font-size="16" fill="#9FB6CF">A long-running server to install, configure,<tspan x="96" dy="22">and administer before the first query.</tspan></text>
+  </g>
+
+  <g id="lane-divider" data-pptx-bounds="596 160 8 476">
+    <line x1="600" y1="164" x2="600" y2="632" stroke="#2D4C74" stroke-width="1" stroke-dasharray="4,4"/>
+  </g>
+
+  <g id="lane-sqlite" data-pptx-bounds="632 160 296 476">
+    <text x="672" y="182" font-size="15" letter-spacing="2" fill="#FFB547">SQLITE</text>
+    <rect x="672" y="200" width="260" height="190" fill="none" stroke="#8CC4EE" stroke-width="1.5" rx="2"/>
+    <use data-icon="tabler-outline/code" x="688" y="216" width="24" height="24" fill="#8CC4EE" stroke-width="1.5"/>
+    <text x="722" y="235" font-size="22" fill="#EAF2FB">application</text>
+    <rect x="692" y="266" width="220" height="104" fill="#11294B" stroke="#FFB547" stroke-width="1.5" rx="2"/>
+    <use data-icon="simple-icons/sqlite" x="708" y="282" width="28" height="28" fill="#FFB547"/>
+    <text x="746" y="303" font-size="22" fill="#EAF2FB">SQLite library</text>
+    <text x="708" y="336" font-family="Consolas, monospace" font-size="17" fill="#8CC4EE">sqlite3.c</text>
+    <text x="708" y="358" font-size="16" fill="#9FB6CF">linked in, same process</text>
+    <line x1="802" y1="390" x2="802" y2="446" stroke="#FFB547" stroke-width="1.5" marker-end="url(#arrowAmber)"/>
+    <text x="790" y="414" font-size="16" fill="#9FB6CF" text-anchor="end">reads and<tspan x="790" dy="20">writes directly</tspan></text>
+    <g id="p03-sqlite-file" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="flowChartDocument" data-pptx-frame="712 452 180 84" fill="#11294B" stroke="#FFB547" stroke-width="1.5">
+<path d="M 712 452 L 892 452 L 892 519.36 C 802 519.36 802 545.03 712 530.45 Z"/>
+</g>
+    <text x="802" y="486" font-size="16" fill="#EAF2FB" text-anchor="middle">one ordinary</text>
+    <text x="802" y="508" font-size="16" fill="#EAF2FB" text-anchor="middle">disk file</text>
+    <text x="672" y="580" font-size="16" fill="#9FB6CF">No separate server process.<tspan x="672" dy="22">Open the file and run SQL.</tspan></text>
+  </g>
+
+  <g id="file-properties" data-pptx-bounds="944 168 272 468" font-size="16" fill="#EAF2FB">
+    <text x="960" y="182" font-size="15" letter-spacing="2" fill="#9FB6CF">THE SINGLE FILE</text>
+    <line x1="948" y1="214" x2="960" y2="214" stroke="#FFB547" stroke-width="2"/>
+    <text x="968" y="220"><tspan font-weight="bold" fill="#FFB547">Zero-configuration:</tspan> nothing<tspan x="968" dy="22">to install or administer</tspan></text>
+    <line x1="948" y1="284" x2="960" y2="284" stroke="#8CC4EE" stroke-width="2"/>
+    <text x="968" y="290">Holds every table, index,<tspan x="968" dy="22">trigger, and view</tspan></text>
+    <line x1="948" y1="354" x2="960" y2="354" stroke="#8CC4EE" stroke-width="2"/>
+    <text x="968" y="360">Copies freely between 32/64-bit<tspan x="968" dy="22">and big/little-endian machines</tspan></text>
+    <line x1="948" y1="424" x2="960" y2="424" stroke="#8CC4EE" stroke-width="2"/>
+    <text x="968" y="430">Library under 900 KiB with<tspan x="968" dy="22">all features enabled</tspan></text>
+    <line x1="948" y1="494" x2="960" y2="494" stroke="#8CC4EE" stroke-width="2"/>
+    <text x="968" y="500">Database up to 281 TB</text>
+    <line x1="948" y1="542" x2="960" y2="542" stroke="#8CC4EE" stroke-width="2"/>
+    <text x="968" y="548">A US Library of Congress<tspan x="968" dy="22">recommended storage format</tspan></text>
+  </g>
+
+  <g id="title-block" data-pptx-role="footer" data-pptx-bounds="840 650 376 38">
+    <rect x="840" y="654" width="376" height="30" fill="#11294B" stroke="#2D4C74"/>
+    <line x1="932" y1="654" x2="932" y2="684" stroke="#2D4C74"/>
+    <text x="852" y="674" font-family="Consolas, monospace" font-size="13" fill="#8CC4EE">SHT 03/12</text>
+    <text x="944" y="674" font-size="13" fill="#9FB6CF">Source: sqlite.org/about, /whentouse</text>
+  </g>
+</svg>
