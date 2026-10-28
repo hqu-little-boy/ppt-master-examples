@@ -80,15 +80,15 @@
       },
       "groups": {
         "phase-redesign-margin": { "effect": "entrance_fade", "order": 1, "delay": 0.3 },
-        "phase-redesign": { "effect": "entrance_fade", "order": 2, "trigger": "with-previous" },
+        "phase-redesign": { "effect": "entrance_fade", "order": 2, "trigger": "with-previous", "delay": 0.3 },
         "phase-operate-margin": { "effect": "entrance_fade", "order": 3 },
-        "phase-operate": { "effect": "entrance_fade", "order": 4, "trigger": "with-previous" },
+        "phase-operate": { "effect": "entrance_fade", "order": 4, "trigger": "with-previous", "delay": 0.5 },
         "gate-a-margin": { "effect": "entrance_fade", "order": 5 },
-        "gate-a": { "effect": "entrance_fade", "order": 6, "trigger": "with-previous" },
+        "gate-a": { "effect": "entrance_fade", "order": 6, "trigger": "with-previous", "delay": 0.5 },
         "phase-evaluate-margin": { "effect": "entrance_fade", "order": 7 },
-        "phase-evaluate": { "effect": "entrance_fade", "order": 8, "trigger": "with-previous" },
+        "phase-evaluate": { "effect": "entrance_fade", "order": 8, "trigger": "with-previous", "delay": 0.5 },
         "gate-b-margin": { "effect": "entrance_fade", "order": 9 },
-        "gate-b": { "effect": "entrance_fade", "order": 10, "trigger": "with-previous" }
+        "gate-b": { "effect": "entrance_fade", "order": 10, "trigger": "with-previous", "delay": 0.5 }
       }
     },
     "09_risk_mitigation": {
@@ -102,7 +102,7 @@
       "groups": {
         "standing-limitations": { "effect": "entrance_fade", "order": 1 },
         "source-ledger-left": { "effect": "entrance_fade", "order": 2 },
-        "source-ledger-right": { "effect": "entrance_fade", "order": 3, "trigger": "with-previous" }
+        "source-ledger-right": { "effect": "entrance_fade", "order": 3, "trigger": "with-previous", "delay": 0.5 }
       }
     }
   }
