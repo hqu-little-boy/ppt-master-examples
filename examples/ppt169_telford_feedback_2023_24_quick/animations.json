@@ -56,13 +56,13 @@
         "escalated-text": { "effect": "entrance_fade", "order": 2, "trigger": "with-previous" },
         "edges-split-1": { "effect": "entrance_wipe", "effect_options": { "direction": "left" }, "order": 3, "duration": 0.4 },
         "open-node": { "effect": "entrance_fade", "order": 4 },
-        "p08-completed-node": { "effect": "entrance_fade", "order": 5, "trigger": "with-previous" },
-        "completed-text": { "effect": "entrance_fade", "order": 6, "trigger": "with-previous" },
+        "p08-completed-node": { "effect": "entrance_fade", "order": 5, "trigger": "with-previous", "delay": 0.5 },
+        "completed-text": { "effect": "entrance_fade", "order": 6, "trigger": "with-previous", "delay": 0.5 },
         "edges-split-2": { "effect": "entrance_wipe", "effect_options": { "direction": "left" }, "order": 7, "duration": 0.4 },
         "p08-closed-node": { "effect": "entrance_fade", "order": 8 },
-        "closed-text": { "effect": "entrance_fade", "order": 9, "trigger": "with-previous" },
-        "p08-full-node": { "effect": "entrance_fade", "order": 10, "trigger": "with-previous" },
-        "full-text": { "effect": "entrance_fade", "order": 11, "trigger": "with-previous" }
+        "closed-text": { "effect": "entrance_fade", "order": 9, "trigger": "with-previous", "delay": 0.5 },
+        "p08-full-node": { "effect": "entrance_fade", "order": 10, "trigger": "with-previous", "delay": 0.5 },
+        "full-text": { "effect": "entrance_fade", "order": 11, "trigger": "with-previous", "delay": 0.5 }
       }
     },
     "09_member_enquiries": {

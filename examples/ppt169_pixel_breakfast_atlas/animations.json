@@ -16,11 +16,11 @@
         "common-tile-1": { "effect": "entrance_wipe", "effect_options": { "direction": "left" }, "order": 1, "trigger": "after-previous", "duration": 0.3 },
         "p02-common-1": { "effect": "entrance_appear", "order": 1, "trigger": "with-previous" },
         "common-tile-2": { "effect": "entrance_wipe", "effect_options": { "direction": "left" }, "order": 2, "trigger": "after-previous", "duration": 0.3 },
-        "p02-common-2": { "effect": "entrance_appear", "order": 2, "trigger": "with-previous" },
+        "p02-common-2": { "effect": "entrance_appear", "order": 2, "trigger": "with-previous", "delay": 0.5 },
         "common-tile-3": { "effect": "entrance_wipe", "effect_options": { "direction": "left" }, "order": 3, "trigger": "after-previous", "duration": 0.3 },
-        "p02-common-3": { "effect": "entrance_appear", "order": 3, "trigger": "with-previous" },
+        "p02-common-3": { "effect": "entrance_appear", "order": 3, "trigger": "with-previous", "delay": 0.5 },
         "common-tile-4": { "effect": "entrance_wipe", "effect_options": { "direction": "left" }, "order": 4, "trigger": "after-previous", "duration": 0.3 },
-        "p02-common-4": { "effect": "entrance_appear", "order": 4, "trigger": "with-previous" },
+        "p02-common-4": { "effect": "entrance_appear", "order": 4, "trigger": "with-previous", "delay": 0.5 },
         "p02-readguide": { "effect": "entrance_wipe", "effect_options": { "direction": "up" }, "order": 5, "trigger": "after-previous", "duration": 0.4 }
       }
     },
@@ -145,9 +145,9 @@
         "p14-header": { "effect": "entrance_appear", "order": 1, "trigger": "after-previous" },
         "p14-center": { "effect": "entrance_appear", "order": 2, "trigger": "after-previous" },
         "salty-bracket": { "effect": "entrance_wipe", "effect_options": { "direction": "right" }, "order": 3, "trigger": "after-previous", "duration": 0.45 },
-        "p14-salty": { "effect": "entrance_appear", "order": 3, "trigger": "with-previous" },
+        "p14-salty": { "effect": "entrance_appear", "order": 3, "trigger": "with-previous", "delay": 0.5 },
         "sweet-bracket": { "effect": "entrance_wipe", "effect_options": { "direction": "left" }, "order": 4, "trigger": "after-previous", "duration": 0.45 },
-        "p14-sweet": { "effect": "entrance_appear", "order": 4, "trigger": "with-previous" },
+        "p14-sweet": { "effect": "entrance_appear", "order": 4, "trigger": "with-previous", "delay": 0.5 },
         "p14-hulatang": { "effect": "entrance_wipe", "effect_options": { "direction": "up" }, "order": 5, "trigger": "after-previous", "duration": 0.4 }
       }
     },
@@ -163,8 +163,8 @@
         "p16-lettering": { "effect": "entrance_appear", "order": 2, "trigger": "after-previous", "delay": 0.2 },
         "p16-native-title": { "effect": "entrance_appear", "order": 3, "trigger": "after-previous" },
         "finish-star-1": { "effect": "entrance_appear", "order": 4, "trigger": "after-previous" },
-        "finish-star-2": { "effect": "entrance_appear", "order": 4, "trigger": "with-previous" },
-        "finish-star-3": { "effect": "entrance_appear", "order": 4, "trigger": "with-previous" }
+        "finish-star-2": { "effect": "entrance_appear", "order": 4, "trigger": "with-previous", "delay": 0.5 },
+        "finish-star-3": { "effect": "entrance_appear", "order": 4, "trigger": "with-previous", "delay": 0.5 }
       }
     }
   }

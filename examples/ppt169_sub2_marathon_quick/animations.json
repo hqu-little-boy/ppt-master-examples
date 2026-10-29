@@ -53,7 +53,8 @@
      "effect": "entrance_fade",
      "order": 3,
      "duration": 0.5,
-     "trigger": "with-previous"
+     "trigger": "with-previous",
+     "delay": 0.5
     }
    }
   },

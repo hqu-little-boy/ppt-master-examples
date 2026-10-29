@@ -17,7 +17,7 @@
         "origin-images": { "effect": "entrance_fade", "order": 1 },
         "origin-facts": { "effect": "entrance_fade", "order": 2 },
         "p02-legend-bracket": { "effect": "entrance_wipe", "effect_options": { "direction": "down" }, "order": 3, "duration": 0.4 },
-        "origin-legend": { "effect": "entrance_fade", "order": 3, "trigger": "with-previous" }
+        "origin-legend": { "effect": "entrance_fade", "order": 3, "trigger": "with-previous", "delay": 0.5 }
       }
     },
     "03_architecture": {
@@ -74,7 +74,7 @@
       "groups": {
         "quodlibet-intro": { "effect": "entrance_fade", "order": 1 },
         "quodlibet-lanes": { "effect": "entrance_wipe", "effect_options": { "direction": "right" }, "order": 2, "duration": 0.8 },
-        "p09-brace": { "effect": "entrance_fade", "order": 2, "trigger": "with-previous" },
+        "p09-brace": { "effect": "entrance_fade", "order": 2, "trigger": "with-previous", "delay": 0.5 },
         "quodlibet-caution": { "effect": "entrance_fade", "order": 3 },
         "return-loop": { "effect": "entrance_fade", "order": 4, "duration": 0.8 }
       }

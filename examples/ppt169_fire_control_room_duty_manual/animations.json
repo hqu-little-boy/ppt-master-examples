@@ -299,7 +299,8 @@
           "effect": "entrance_fade",
           "order": 3,
           "duration": 0.4,
-          "trigger": "with-previous"
+          "trigger": "with-previous",
+          "delay": 0.5
         },
         "p10-arrow-2": {
           "effect": "entrance_wipe",
@@ -313,7 +314,8 @@
           "effect": "entrance_fade",
           "order": 5,
           "duration": 0.4,
-          "trigger": "with-previous"
+          "trigger": "with-previous",
+          "delay": 0.5
         },
         "p10-arrow-3": {
           "effect": "entrance_wipe",
@@ -327,7 +329,8 @@
           "effect": "entrance_fade",
           "order": 7,
           "duration": 0.4,
-          "trigger": "with-previous"
+          "trigger": "with-previous",
+          "delay": 0.5
         },
         "clause-trace": {
           "effect": "entrance_fade",
